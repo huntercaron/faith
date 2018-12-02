@@ -16,13 +16,12 @@ fields:
 - name: date
   label: Date
   type: datetime
-  hidden: false
+  hidden: true
   default: ''
-- name: description
+- type: textarea
+  default: ''
   label: Description
-  type: text
-  hidden: false
-  default: ''
+  name: description
 - name: gallery_images
   label: Gallery images
   type: image_gallery
