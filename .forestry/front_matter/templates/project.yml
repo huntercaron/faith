@@ -29,5 +29,5 @@ fields:
   hidden: false
   default: ''
 pages:
-- src/content/projects/eggs.md
 - src/content/projects/forests.md
+- src/content/projects/eggs.md
