@@ -1,8 +1,9 @@
 ---
 title: Forests
 template: project
-date: 2018-11-18 01:43:14 +0000
-description: This is a description where I'm gonna talk about this gallery of forest photos.
+date: 2018-11-18T01:43:14+00:00
+description: This is a description where I'm gonna talk about this gallery of forest
+  photos.
 gallery_images:
 - "/media/download (3).jpeg"
 - "/media/images (4).jpeg"
