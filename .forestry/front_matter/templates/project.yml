@@ -1,5 +1,5 @@
 ---
-label: ProjectP
+label: Project
 hide_body: true
 is_partial: false
 fields:
@@ -29,5 +29,5 @@ fields:
   hidden: false
   default: ''
 pages:
-- src/content/projects/forests.md
 - src/content/projects/eggs.md
+- src/content/projects/forests.md
