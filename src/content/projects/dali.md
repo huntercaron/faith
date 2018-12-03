@@ -11,11 +11,11 @@ description: This world-class art and fashion exhibition featured the work of su
   The collection included sculptures such as Woman Aflame, Homage to Fashion and Dalinian
   Dancer.
 gallery_images:
-- "/media/001/optim/001.jpg"
-- "/media/001/optim/002.jpg"
-- "/media/001/optim/003.jpg"
-- "/media/001/optim/004.jpg"
-- "/media/001/optim/005.jpg"
-- "/media/001/optim/006.jpg"
+- "/media/001/optim/dali-001.jpg"
+- "/media/001/optim/dali-002.jpg"
+- "/media/001/optim/dali-003.jpg"
+- "/media/001/optim/dali-004.jpg"
+- "/media/001/optim/dali-005.jpg"
+- "/media/001/optim/dali-006.jpg"
 
 ---

@@ -41,6 +41,9 @@ exports.createPages = ({ graphql, actions }) => {
           const previous = index === posts.length - 1 ? null : posts[index + 1].node;
           const next = index === 0 ? null : posts[index - 1].node;
 
+          if (post.node.frontmatter.template === null)
+            return; 
+
           createPage({
             path: post.node.fields.slug,
             component: path.resolve(`./src/templates/${post.node.frontmatter.template}.js`),
