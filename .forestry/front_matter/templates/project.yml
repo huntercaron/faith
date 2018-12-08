@@ -32,5 +32,6 @@ fields:
   label: Thumbnail
   config:
     maxSize: '12'
+  description: For main page
 pages:
 - src/content/projects/test.md
