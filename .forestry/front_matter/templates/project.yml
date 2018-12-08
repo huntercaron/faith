@@ -22,15 +22,15 @@ fields:
   default: ''
   label: Description
   name: description
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  config:
-    maxSize: '12'
 - name: gallery_images
   label: Gallery images
   type: image_gallery
   hidden: false
   default: ''
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  config:
+    maxSize: '12'
 pages:
 - src/content/projects/test.md
