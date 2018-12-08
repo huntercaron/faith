@@ -19,4 +19,6 @@ gallery_images:
 - "/media/011/beauty-010.jpg"
 - "/media/011/beauty-011.jpg"
 - "/media/011/beauty-012.jpg"
+thumbnail: "/media/proj-8.jpg"
+
 ---
