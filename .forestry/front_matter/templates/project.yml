@@ -22,6 +22,11 @@ fields:
   default: ''
   label: Description
   name: description
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  config:
+    maxSize: '10'
 - name: gallery_images
   label: Gallery images
   type: image_gallery
