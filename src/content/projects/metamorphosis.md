@@ -2,7 +2,9 @@
 title: Fshnunlimited Metamorphosis Edition
 template: project
 date: 2018-11-18T01:42:51+00:00
-description: Art/Creative direction and design for Fshununlimited’s “Metamorphosis” edition. In this issue, fashion, art and sex merge in the spirit of a renewed generation – channelling resurgence, diversity and authenticity.
+description: Art/Creative direction and design for Fshununlimited’s “Metamorphosis”
+  edition. In this issue, fashion, art and sex merge in the spirit of a renewed generation
+  – channelling resurgence, diversity and authenticity.
 gallery_images:
 - "/media/004/metamorphosis-001.jpg"
 - "/media/004/metamorphosis-002.jpg"
@@ -23,5 +25,6 @@ gallery_images:
 - "/media/004/metamorphosis-017.jpg"
 - "/media/004/metamorphosis-018.jpg"
 - "/media/004/metamorphosis-019.jpg"
+thumbnail: "/media/pro-1.png"
 
 ---
