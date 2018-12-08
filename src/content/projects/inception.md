@@ -2,7 +2,10 @@
 title: Fshnunlimited “Inception” Edition
 template: project
 date: 2018-11-18T01:42:51+00:00
-description: Art/Creative direction and design for Fshununlimited’s “Inception” edition. In our opening issue, Fshnunlimited celebrates the heroes, scholars and philosophers of creativity – spurred by potential, desire and the hunt for expression. In the light of our own era, we are unlimited.
+description: Art/Creative direction and design for Fshununlimited’s “Inception” edition.
+  In our opening issue, Fshnunlimited celebrates the heroes, scholars and philosophers
+  of creativity – spurred by potential, desire and the hunt for expression. In the
+  light of our own era, we are unlimited.
 gallery_images:
 - "/media/012/inception-001.jpg"
 - "/media/012/inception-002.jpg"
@@ -25,5 +28,6 @@ gallery_images:
 - "/media/012/inception-019.jpg"
 - "/media/012/inception-020.jpg"
 - "/media/012/inception-021.jpg"
+thumbnail: "/media/proj-9.png"
 
 ---
