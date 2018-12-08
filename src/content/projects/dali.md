@@ -17,5 +17,6 @@ gallery_images:
 - "/media/001/optim/dali-004.jpg"
 - "/media/001/optim/dali-005.jpg"
 - "/media/001/optim/dali-006.jpg"
+thumbnail: "/media/proj-1-1.jpg"
 
 ---
