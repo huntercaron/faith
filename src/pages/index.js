@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import PageLink from '../components/pageLink'
+import Project from '../components/project'
 
 const SectionTitle = ({ title }) => (
   <h2 style={{fontSize: "4rem", marginTop: "4rem"}}>
@@ -12,14 +13,12 @@ const SectionTitle = ({ title }) => (
 
 const IndexPage = ({ data: { projects: { edges: projects }, blog: { edges: posts }}}) => (
   <Layout>
-    <SectionTitle title="Projects"/>
     {projects.map(({ node: project }) => 
-      <PageLink key={project.id} link={project.fields.slug} title={project.frontmatter.title}/>
-    )}
-
-    <SectionTitle title="Blog"/>
-    {posts.map(({ node: post }) => 
-      <PageLink key={post.id} link={post.fields.slug} title={post.frontmatter.title}/>
+      <Project 
+        key={project.id}
+        link={project.fields.slug}
+        title={project.frontmatter.title}
+      />
     )}
 
     <Link to="/about">

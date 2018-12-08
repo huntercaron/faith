@@ -24,7 +24,7 @@ const Title = styled.h1`
 const Info = styled.div`
   width: 100%;
   max-width: 1100px;
-  margin: 2rem 4rem 6px 4rem;
+  padding: 2rem 4rem 6px 4rem;
 `
 
 const Description = styled.div`
@@ -33,6 +33,8 @@ const Description = styled.div`
   max-width: 800px;
   white-space: pre-wrap;
   margin-bottom: 4rem;
+  margin-right: 2rem;
+  width: 100%;
 `;
 
 const Underline = styled.span`
@@ -57,6 +59,7 @@ const Gallery = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0 2rem;
 
   .gatsby-image-wrapper {
     width: 100%;
@@ -92,7 +95,7 @@ class ProjectTemplate extends React.Component {
         
           <Gallery>
             {project.frontmatter.gallery_images.map(image =>
-              <Img key={image.id} fluid={image.childImageSharp.fluid}/>
+              <Img backgroundColor="#fafafa" key={image.id} fluid={image.childImageSharp.fluid}/>
             )}
           </Gallery>
 
