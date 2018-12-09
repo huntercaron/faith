@@ -11,13 +11,14 @@ const SectionTitle = ({ title }) => (
   </h2>
 )
 
-const IndexPage = ({ data: { projects: { edges: projects }, blog: { edges: posts }}}) => (
+const IndexPage = ({ data: { projects: { edges: projects }}}) => (
   <Layout>
     {projects.map(({ node: project }) => 
       <Project 
         key={project.id}
         link={project.fields.slug}
         title={project.frontmatter.title}
+        thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
       />
     )}
 
@@ -38,6 +39,13 @@ export const query = graphql`
           id
           frontmatter {
             title
+            thumbnail {
+              childImageSharp {
+                fluid(maxWidth: 1100, quality: 90) {
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
+                }
+              }
+            }
           }
           fields {
             slug
