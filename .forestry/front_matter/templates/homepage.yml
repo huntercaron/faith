@@ -22,5 +22,12 @@ fields:
   label: Project Order
   name: projectorder
   default: []
+- type: list
+  name: test_source
+  label: Test Source
+  config:
+    use_select: true
+    source:
+      type: simple
 pages:
 - src/content/homepage.md
