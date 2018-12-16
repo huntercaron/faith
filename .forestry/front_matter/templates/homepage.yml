@@ -3,33 +3,16 @@ label: Homepage
 hide_body: true
 is_partial: false
 fields:
-- type: select
-  config:
-    source:
-      type: documents
-      section: projects
-      file: src/content/projects/yorkville.md
-      path: gallery_images
-    required: false
-  label: first project
-  name: first_project
 - type: list
   config:
     use_select: true
     source:
       type: pages
       section: projects
+    min: '1'
   label: Project Order
   name: projectorder
   default: []
-- type: list
-  name: test_source
-  label: Test Source
-  config:
-    use_select: true
-    source:
-      type: simple
-    options:
-    - projectorder
+  description: The order in which projects show up on the homepage.
 pages:
 - src/content/homepage.md
