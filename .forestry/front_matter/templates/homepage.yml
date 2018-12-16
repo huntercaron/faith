@@ -1,0 +1,20 @@
+---
+label: Homepage
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  config:
+    source:
+      type: documents
+      section: projects
+  label: first project
+  name: first_project
+- type: list
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: projects
+  label: projectOrder
+  name: projectorder
