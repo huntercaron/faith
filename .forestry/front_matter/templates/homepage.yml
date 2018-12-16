@@ -18,3 +18,5 @@ fields:
       section: projects
   label: projectOrder
   name: projectorder
+pages:
+- src/content/homepage.md
