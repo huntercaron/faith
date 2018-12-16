@@ -1,39 +1,50 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import styled from 'styled-components';
 
+import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import PageLink from '../components/pageLink'
-import Project from '../components/project'
 
-const SectionTitle = ({ title }) => (
-  <h2 style={{fontSize: "4rem", marginTop: "4rem"}}>
-    {title}
-  </h2>
+const ProjectContainer = styled.div`
+  border: 1px solid blue;
+`;
+
+const Project = ({ title, thumbnail, link }) => (
+  <Link to={link}>
+    <ProjectContainer>
+      <Img fluid={thumbnail}/>
+    </ProjectContainer>
+  </Link>
 )
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid red;
+`;
 
 const IndexPage = ({ data: { projects: { edges: projects }}}) => (
   <Layout>
-    {projects.map(({ node: project }, i) => 
-      <Project 
-        key={project.id}
-        index={i+1}
-        link={project.fields.slug}
-        title={project.frontmatter.title}
-        thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
-      />
-    )}
-
-    <Link to="/about">
-      <SectionTitle title="About &rarr;"/>
-    </Link>
-
+    <Grid>
+      {projects.map(({ node: project }, i) => 
+        <Project 
+          key={project.id}
+          index={i+1}
+          link={project.fields.slug}
+          title={project.frontmatter.title}
+          thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
+          
+        />
+      )}
+    </Grid>
   </Layout>
 )
 
 export default IndexPage
 
 export const query = graphql`
-  query IndexQuery {
+  query GridQuery {
     projects: allMarkdownRemark(filter: { fields: { slug: { regex: "/projects/" }}}) {
       edges {
         node {

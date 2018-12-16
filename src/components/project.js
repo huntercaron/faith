@@ -2,15 +2,15 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
-const Project = ({ link, title, thumbnail }) => (
-  <div class="project proj-5-box" >
+const Project = ({ link, title, thumbnail, index }) => (
+  <div class={`project proj-${index}-box`} >
     <Link to={link}>
-        <div class="proj-5 proj-inner">
+        <div class={`proj-${index} proj-inner`}>
             <div class="image-box">
-                <Img class="proj-5-img proj-img" fluid={thumbnail}/>
+                <Img class={`proj-${index}-img proj-img`} fluid={thumbnail}/>
 
                 <div class="project-info">
-                    <div class="proj-rect proj-5-rect">
+                    <div class={`proj-rect proj-${index}-rect`}>
                         <div class="proj-text-box">
                             <h4><span class="underline">_____ </span>{title}</h4>
                         </div>
