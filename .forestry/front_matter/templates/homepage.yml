@@ -29,5 +29,7 @@ fields:
     use_select: true
     source:
       type: simple
+    options:
+    - projectorder
 pages:
 - src/content/homepage.md
