@@ -19,7 +19,7 @@ fields:
     source:
       type: pages
       section: projects
-  label: projectOrder
+  label: Project Order
   name: projectorder
   default: []
 pages:
