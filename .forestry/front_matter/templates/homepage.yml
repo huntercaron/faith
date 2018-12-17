@@ -14,5 +14,3 @@ fields:
   name: projectOrder
   default: []
   description: The order in which projects show up on the homepage.
-pages:
-- src/content/homepage.md
