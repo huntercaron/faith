@@ -3,11 +3,20 @@ import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 const Project = ({ title, thumbnail, link, index }) => (
-  <Link to={link}>
-    <div>
-      <Img fluid={thumbnail}/>
-    </div>
-  </Link>
+    <Link to={link}>
+        <div className={`project proj-${index}-box`}>
+            <Img fluid={thumbnail}/>
+
+            <div class="project-info">
+                <div class={`proj-rect proj-${index}-rect`}>
+                    <div class="proj-text-box">
+                        <h4><span class="underline">_____ </span>{title}</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </Link>
 )
 
 // const Project = ({ link, title, thumbnail, index }) => (

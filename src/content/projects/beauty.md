@@ -1,6 +1,7 @@
 ---
 title: Fshnunlimited “Beauty” Edition
 template: project
+key: beauty
 date: 2018-11-18T01:42:51+00:00
 description: |-
   Art/Creative direction and design for Fshununlimited’s “Beauty” edition. In this issue, we explore reality as a prism of perception – its beauty, possibility and magic a mirror to only our own and our desire to find it.

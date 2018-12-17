@@ -1,6 +1,7 @@
 ---
 title: Salvador Dalí Art & Fashion Exhibition
 template: project
+key: dali
 date: 2018-11-18T01:42:51+00:00
 description: This world-class art and fashion exhibition featured the work of surrealist
   master Salvador Dalí and his influence on fashion. It was the first viewing of its

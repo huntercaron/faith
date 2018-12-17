@@ -1,6 +1,7 @@
 ---
 title: Fshnunlimited “Life and Death” Edition
 template: project
+key: life
 date: 2018-11-18T01:42:51+00:00
 description: Art/Creative direction and design for Fshununlimited’s “Life & Death”
   edition. In this issue, fashion, art and expression frame the desire and the hope

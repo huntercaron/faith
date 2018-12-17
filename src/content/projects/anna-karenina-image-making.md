@@ -1,6 +1,7 @@
 ---
 title: Anna Karenina Image-making
 template: project
+key: anna
 date: 2018-12-17T01:13:18+00:00
 description: 'A set of 5 images created for photographer Nadia Cheema’s Anna Karenina
   project. Modelled by Tristen from Spot 6 Management. '

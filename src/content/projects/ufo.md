@@ -1,6 +1,7 @@
 ---
 title: Ufo Custom Typeface
 template: project
+key: ufo
 date: 2018-11-18T01:42:51+00:00
 description: The typeface Ufo has been used in numerous fashion magazines, posters
   and retail environments. This typeface was inspiring by the futurist movement of

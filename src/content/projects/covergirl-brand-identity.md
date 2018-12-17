@@ -1,6 +1,7 @@
 ---
 title: Covergirl Brand Identity
 template: project
+key: covergirl
 date: 2018-12-17T01:11:28+00:00
 description: Covergirl is one of the largest cosmetics brand globally. In 2017, they
   embarked on their biggest reinvention in their 60-year history. The new custom logotype

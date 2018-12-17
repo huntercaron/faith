@@ -1,6 +1,7 @@
 ---
 title: Mike Ruiz “War”
 template: project
+key: war
 date: 2018-11-18T01:42:51+00:00
 description: Photographed by the renowned fashion photographer Mike Ruiz and written
   by Dylan Dias, this poster design was created to promote the new KM1 digital press

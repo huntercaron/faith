@@ -1,6 +1,7 @@
 ---
 title: Look Again Typeface Poster
 template: project
+key: look
 date: 2018-11-18T01:42:51+00:00
 description: This limited edition poster was created to launch the custom typeface
   o.m.g. The renowned fashion designer Paul Smith’s statement “You can find inspiration

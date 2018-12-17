@@ -1,6 +1,7 @@
 ---
 title: Fshnunlimited “Inception” Edition
 template: project
+key: inception
 date: 2018-11-18T01:42:51+00:00
 description: Art/Creative direction and design for Fshununlimited’s “Inception” edition.
   In our opening issue, Fshnunlimited celebrates the heroes, scholars and philosophers

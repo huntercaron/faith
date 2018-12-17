@@ -1,6 +1,7 @@
 ---
 title: Yorkville Village “Style Revolution"
 template: project
+key: yorkville
 date: 2018-11-18T01:42:51+00:00
 description: Known as the Canadian counterpart to Greenwich Village and Haight-Ashbury,
   Yorkville Village’s ad campaign “Style Revolution” pays homage to the robust art,
