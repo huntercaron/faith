@@ -95,7 +95,7 @@ class ProjectTemplate extends React.Component {
         
           <Gallery>
             {project.frontmatter.gallery_images.map(image =>
-              <Img backgroundColor="#f7f7f7" key={image.id} fluid={image.childImageSharp.fluid}/>
+              <Img backgroundColor="#fbfbfb" key={image.id} fluid={image.childImageSharp.fluid}/>
             )}
           </Gallery>
 

@@ -7,7 +7,7 @@ const Project = ({ title, thumbnail, link, projectKey }) => (
     <div className={`project proj-${projectKey}-box`}>
         <Link to={link} className="project-link">
             <div className="proj-inner">
-                <Img fluid={thumbnail} className={`proj-${projectKey}-img proj-image`}/>
+                <Img fluid={thumbnail} backgroundColor="#ffffff" className={`proj-${projectKey}-img proj-image`}/>
 
                 <div class="project-info">
                     <div class={`proj-rect proj-${projectKey}-rect`}>
