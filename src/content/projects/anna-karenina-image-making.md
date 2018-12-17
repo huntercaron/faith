@@ -1,5 +1,7 @@
 ---
-title: Anna Karenina Image-making
+title: |-
+  Anna Karenina
+  Image-making
 template: project
 key: anna
 date: 2018-12-17T01:13:18+00:00
