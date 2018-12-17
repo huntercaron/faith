@@ -11,7 +11,7 @@ fields:
       section: projects
     min: '1'
   label: Project Order
-  name: projectorder
+  name: projectOrder
   default: []
   description: The order in which projects show up on the homepage.
 pages:
