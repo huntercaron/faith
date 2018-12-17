@@ -33,3 +33,5 @@ fields:
   config:
     maxSize: '12'
   description: For main page
+pages:
+- src/content/projects/covergirl-brand-identity.md
