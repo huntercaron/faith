@@ -1,5 +1,7 @@
 ---
-title: Zombie Boy Brand Identity
+title: |-
+  Zombie Boy
+  Brand Identity
 template: project
 key: zombie
 date: 2018-12-17T01:16:18+00:00
