@@ -3,10 +3,9 @@ label: Project
 hide_body: true
 is_partial: false
 fields:
-- name: title
+- type: textarea
+  name: title
   label: Title
-  type: text
-  hidden: false
   default: ''
   config:
     required: true
