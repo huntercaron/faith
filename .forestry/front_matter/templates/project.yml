@@ -35,3 +35,4 @@ fields:
   description: For main page
 pages:
 - src/content/projects/covergirl-brand-identity.md
+- src/content/projects/anna-karenina-image-making.md
