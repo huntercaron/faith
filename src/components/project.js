@@ -12,7 +12,7 @@ const Project = ({ title, thumbnail, link, projectKey }) => (
                 <div class="project-info">
                     <div class={`proj-rect proj-${projectKey}-rect`}>
                         <div class="proj-text-box">
-                            <h4><span class="underline">_____ </span>{projectKey} {title}</h4>
+                            <h4><span class="underline">_____ </span>{title}</h4>
                         </div>
                     </div>
                 </div>
