@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from "gatsby-image"
 import styled from 'styled-components';
+import "intersection-observer"
 
 import { SmallCross } from '../components/crosses'
 

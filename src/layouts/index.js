@@ -1,12 +1,25 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-// import "intersection-observer"
 
 import './layout.css'
 import Transition from "../components/transition"
 import { BigCross, SmallCross } from '../components/crosses';
 
+const timeout = 400;
+
+const getCrossStyle = {
+  active: {
+    transition: `opacity ${timeout}ms ease-out`,
+    pointerEvents: 'auto',
+    opacity: 1,
+  },
+  inactive: {
+    transition: `opacity ${timeout}ms ease-in`,
+    pointerEvents: 'none',
+    opacity: 0,
+  },
+}
 
 const Layout = ({ children, pageTitle, location }) => (
   <StaticQuery
@@ -32,11 +45,22 @@ const Layout = ({ children, pageTitle, location }) => (
           <html lang="en" />
         </Helmet>
       
-        {location.pathname === "/" ? (
-          <BigCross />
-        ):(
-          <SmallCross left={!location.pathname.includes("about")}/>
-        )}
+
+
+        <BigCross style={{...getCrossStyle[(location.pathname === "/" ? 'active' : 'inactive')]}}/>
+
+
+        <div style={{...getCrossStyle[(!(location.pathname === "/") ? 'active' : 'inactive')]}}>
+          <SmallCross 
+            style={{opacity: 0, ...getCrossStyle[(!(location.pathname.includes("about")) ? 'active' : 'inactive')]}}
+            left
+          />
+
+          <SmallCross 
+            style={{opacity: 0, ...getCrossStyle[(location.pathname.includes("about") ? 'active' : 'inactive')]}}
+          />
+        </div>
+
 
         <Transition location={location}>
           <div style={{ position: "relative" }}>

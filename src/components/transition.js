@@ -1,8 +1,5 @@
 import React from "react"
-import {
-  TransitionGroup,
-  Transition as ReactTransition,
-} from "react-transition-group"
+import { TransitionGroup, Transition as ReactTransition } from "react-transition-group"
 
 const timeout = 250
 const getTransitionStyles = {

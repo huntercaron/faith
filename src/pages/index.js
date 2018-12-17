@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import "intersection-observer"
 import './index.css'
 
 import Project from '../components/project'

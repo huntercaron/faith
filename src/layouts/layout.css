@@ -81,7 +81,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: 10;
-    transition: all 830ms cubic-bezier(.14,.6,.36,1);
+    transition: opacity 830ms cubic-bezier(.14,.6,.36,1);
 }
 
 .cross {
@@ -93,7 +93,7 @@ a:hover {
     transform-origin: top center;
     cursor: pointer;
 
-    transition: all 530ms cubic-bezier(.14,.6,.36,1);
+    transition: opacity 530ms cubic-bezier(.14,.6,.36,1);
 }
 
 .cross-thin {
