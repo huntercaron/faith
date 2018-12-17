@@ -335,6 +335,7 @@ a:hover {
 }
 
 .info-inner p {
+    white-space: pre-wrap;
     margin-bottom: 50px;
 }
 

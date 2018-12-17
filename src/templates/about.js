@@ -5,25 +5,49 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { SmallCross } from '../components/crosses'
 
-class AboutTemplate extends React.Component {
-  render() {
-    const about = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+const AboutTemplate = (props) => {
+  const about = props.data.markdownRemark
+  const siteTitle = props.data.site.siteMetadata.title
+  const {
+    description,
+    contact,
+    press,
+    clients,
+    awards
+  } = props.data.markdownRemark.frontmatter
 
-    return (
-      <Layout location={this.props.location} pageTitle={about.frontmatter.title}>
-        <Helmet
-          htmlAttributes={{ lang: 'en' }}
-          title={`${about.frontmatter.title} | ${siteTitle}`}
-        />
+  return (
+    <Layout location={props.location} pageTitle={about.frontmatter.title}>
+      <Helmet
+        htmlAttributes={{ lang: 'en' }}
+        title={`${about.frontmatter.title} | ${siteTitle}`}
+      />
 
-        <SmallCross />
+      <SmallCross />
+
+      <div className="info">
+        <div className="info-inner">
+          <p>{description}</p>
+
+          <h4>
+            contact 
+            <p><a href={`mailto:${contact}`}>{contact}</a></p>
+          </h4>
+
+          <h4>Selected Press & Publications</h4>
+          <p>{press}</p>
+
+          <h4>Selected Client list</h4>
+          <p>{clients}</p>
+
+          <h4>Awards</h4>
+          <p>{awards}</p>
+        </div>
+      </div>
 
 
-        
-      </Layout>
-    )
-  }
+    </Layout>
+  )
 }
 
 export default AboutTemplate
@@ -38,14 +62,11 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       frontmatter {
-        title
         description
-        color
-        libraries
-        social {
-          name
-          link
-        }
+        contact
+        press
+        clients
+        awards
       }
     }
   }
