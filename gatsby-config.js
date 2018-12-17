@@ -1,9 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: 'Sunnyside',
+    title: 'Faith',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [require(`postcss-preset-env`)({ stage: 0 }), require('autoprefixer')()],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
