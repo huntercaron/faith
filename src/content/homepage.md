@@ -1,5 +1,5 @@
 ---
-projectorder:
+projectOrder:
 - src/content/projects/covergirl-brand-identity.md
 - src/content/projects/anna-karenina-image-making.md
 - src/content/projects/zombie-boy-brand-identity.md
