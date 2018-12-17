@@ -506,3 +506,306 @@
     bottom: 20px;
     width: 140px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+
+    .type-overlay {
+        background-size: cover;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .cross {
+        width: 30%;
+        top: 0;
+        left: 37.5%;
+
+    }
+
+
+
+
+
+    .grid {
+        margin-top: 280px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .project {
+      margin-left: 0;
+    }
+
+    .proj-covergirl-box {
+      width: 90%;
+      padding-left: 0;
+      margin-left: -10%;
+    }
+
+    .proj-anna-box {
+      width: 100%;
+    }
+
+    .proj-zombie-box {
+      width: 90%;
+      margin: 120px -10% 40px 0;
+    }
+
+    .proj-zombie-rect {
+      width: 38%;
+      height: 160%;
+      top: -20%;
+    }
+
+    .proj-dali-box {
+      margin-top: 0;
+      width: 100%;
+    }
+
+    .proj-war-box {
+      margin-top: 50px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .proj-war-img {
+        width: 80%;
+        object-fit: contain;
+    }
+
+    .proj-war-rect {
+        top: 30%;
+        width: 100%;
+        right: 0%;
+        height: 28%;
+    }
+
+
+    .proj-yorkville-box {
+      margin-top: 50px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .proj-yorkville-img {
+        width: 150%;
+        margin-left: -40%;
+        object-fit: contain;
+    }
+
+    .proj-yorkville-rect {
+        display: flex;
+        justify-content: center;
+        top: 21%;
+        left: 0;
+        min-height: 80px;
+        height: 26%;
+        max-height: 210px;
+        width: 100%;
+    }
+
+    .proj-yorkville-rect .proj-text-box {
+        max-width: 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .proj-metamorphosis-box {
+        width: 100%;
+    }
+
+    .proj-metamorphosis-rect {
+        width: 70%;
+    }
+
+    .proj-metamorphosis-rect .proj-text-box {
+        padding-top: 22px;
+    }
+
+    .proj-meg-box {
+        width: 100%;
+        flex-basis: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 0 0px 0;
+    }
+
+    .proj-meg {
+
+        position: relative;
+        top: 0;
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+
+    .proj-meg-rect {
+        top: -60px;
+        height: 140%;
+        width: 18%;
+        min-width: 100px;
+    }
+
+    .proj-meg-img {
+        height: auto;
+        width: 100%;
+    }
+
+
+    .proj-meg-rect .proj-text-box {
+        max-width: 80px;
+    }
+
+
+    .proj-masseria-box {
+        margin-top: 175px;
+        width: 100%;
+    }
+
+
+
+    .proj-gerry-rect {
+        right: 0;
+        bottom: 140px;
+        width: 72%;
+        min-width: 140px;
+        height: 46%;
+    }
+
+    .proj-gerry-box {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .proj-life-box {
+        margin-top: 80px;
+    }
+
+    .proj-life-rect {
+        display: flex;
+        justify-content: flex-start;
+        top: 21%;
+        left: 0;
+        min-height: 100px;
+        height: 26%;
+        max-height: 210px;
+        width: 100%;
+    }
+
+    .proj-life-rect .proj-text-box {
+        margin-top: 20px;
+        margin-left: 26%;
+    }
+
+    .proj-ufo-box {
+      margin-left: 0;
+    }
+
+    .proj-life-box, .proj-look-box, .proj-ufo-box, .proj-beauty-box {
+        width: 100%;
+    }
+
+    .proj-look-box {
+        margin: 80px 0;
+    }
+
+    .proj-8-box {
+        margin-top: 20px;
+    }
+
+    .proj-4-spacer {
+        height: 10px;
+    }
+
+    .proj-look-img {
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .proj-look-rect {
+        width: 55%;
+        right: 0;
+        top: 90px;
+        height: 50%;
+        padding-left: 40%;
+        padding-top: 60px;
+    }
+
+    .proj-inception-box {
+      width: 95%;
+    }
+
+    .proj-inception-rect {
+        top: 26%;
+        width: 65%;
+        left: -8%;
+        height: 39%;
+        
+    }
+
+    .proj-inception-rect .proj-text-box {
+        text-align: right;
+        position: absolute;
+        right: 10%;
+        bottom: 12%;
+        width: 140px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    .button_container {
+        right: 5%;
+    }
+
+    .proj-text-box h4 {
+        font-size: 1.1rem;
+        letter-spacing: 0.2px;
+    }
+
+    .gallery-img {
+        margin: 0;
+    }
+
+    .proj-title {
+        margin-bottom: 1.6rem;
+    }
+
+    .info {
+        margin-top: 40vh;
+    }
+
+    .cross-box.thin-cross-box .cross {
+        top: 30px;
+    }
+
+
+
+    .hidden-cross .cross {
+        transform: scale(0.6) translateY(30%) translateX(-8px);
+    }
+
+    .thin-cross-box.hidden-cross .cross {
+        transform: scale(0.8) translateY(20%) translateX(-2px);
+    }
+
+    .left-cross-box.hidden-cross .cross {
+        transform: scale(0.6) translateY(20%) translateX(4px);
+    }
+
+
+}

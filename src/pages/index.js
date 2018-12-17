@@ -4,6 +4,7 @@ import './index.css'
 
 import Layout from '../components/layout'
 import Project from '../components/project'
+import { BigCross } from '../components/crosses'
 
 const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmatter: { projectOrder }}}}) => {
   projects.map(project => {
@@ -18,6 +19,8 @@ const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmat
 
   return (
     <Layout>
+      <BigCross />
+
       <div className="grid">
         {activeProjects.map(({ node: project }, i) => 
           <Project 
