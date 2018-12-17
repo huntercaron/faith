@@ -1,54 +1,51 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import './index.css'
 
-import Img from 'gatsby-image'
 import Layout from '../components/layout'
+import PageLink from '../components/pageLink'
 import Project from '../components/project'
 
-const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmatter: { projectOrder }}}}) => {
-  projects.map(project => {
-    return project.relativePath = "src/" + project.node.fileAbsolutePath.split("src/")[1]
-  })
+const SectionTitle = ({ title }) => (
+  <h2 style={{fontSize: "4rem", marginTop: "4rem"}}>
+    {title}
+  </h2>
+)
 
-  projects.sort((a, b) => {
-    return projectOrder.indexOf(a.relativePath) - projectOrder.indexOf(b.relativePath)
-  });
+const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmatter: { projectOrder } }}}) => (
+  <Layout>
+    {projectOrder}
+  
+    {projects.map(({ node: project }, i) => 
+      <Project 
+        key={project.id}
+        index={i+1}
+        link={project.fields.slug}
+        title={project.frontmatter.title}
+        thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
+      />
+    )}
 
-  const activeProjects = projects.filter(project => projectOrder.indexOf(project.relativePath) > -1);
+    <Link to="/about">
+      <SectionTitle title="About &rarr;"/>
+    </Link>
 
-  return (
-    <Layout>
-      <div className="grid">
-        {activeProjects.map(({ node: project }, i) => 
-          <Project 
-            key={project.id}
-            index={i+1}
-            link={project.fields.slug}
-            title={project.frontmatter.title}
-            thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
-          />
-        )}
-      </div>
-    </Layout>
-  )
-}
+  </Layout>
+)
 
 export default IndexPage
 
 export const query = graphql`
-  query GridQuery {
+  query IndexQuery {
     homepage: markdownRemark (fileAbsolutePath: { regex: "/homepage.md/" }) {
       frontmatter {
         projectOrder
       }
     }
+
     projects: allMarkdownRemark(filter: { fields: { slug: { regex: "/projects/" }}}) {
       edges {
         node {
           id
-          fileAbsolutePath
-
           frontmatter {
             title
             thumbnail {
