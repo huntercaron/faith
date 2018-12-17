@@ -1,22 +1,24 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
+import './project.css'
 
-const Project = ({ title, thumbnail, link, index }) => (
-    <Link to={link}>
-        <div className={`project proj-${index}-box`}>
-            <Img fluid={thumbnail}/>
+const Project = ({ title, thumbnail, link, projectKey }) => (
+    <div className={`project proj-${projectKey}-box`}>
+        <Link to={link} className="project-link">
+            <div className="proj-inner">
+                <Img fluid={thumbnail} className={`proj-${projectKey}-img proj-image`}/>
 
-            <div class="project-info">
-                <div class={`proj-rect proj-${index}-rect`}>
-                    <div class="proj-text-box">
-                        <h4><span class="underline">_____ </span>{title}</h4>
+                <div class="project-info">
+                    <div class={`proj-rect proj-${projectKey}-rect`}>
+                        <div class="proj-text-box">
+                            <h4><span class="underline">_____ </span>{projectKey} {title}</h4>
+                        </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </Link>
+        </Link>
+    </div>
 )
 
 // const Project = ({ link, title, thumbnail, index }) => (

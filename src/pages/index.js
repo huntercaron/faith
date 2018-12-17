@@ -1,8 +1,7 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import './index.css'
 
-import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import Project from '../components/project'
 
@@ -23,6 +22,7 @@ const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmat
         {activeProjects.map(({ node: project }, i) => 
           <Project 
             key={project.id}
+            projectKey={project.frontmatter.key}
             index={i+1}
             link={project.fields.slug}
             title={project.frontmatter.title}
@@ -51,6 +51,7 @@ export const query = graphql`
 
           frontmatter {
             title
+            key
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 2100, quality: 90) {
@@ -58,20 +59,6 @@ export const query = graphql`
                 }
               }
             }
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-
-    blog: allMarkdownRemark(filter: { fields: { slug: { regex: "/posts/" }}}) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
           }
           fields {
             slug
