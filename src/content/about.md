@@ -13,8 +13,8 @@ description: Faith is a multifaceted creative design agency with a focus on fash
   and the influence of a collective skillset. Our work has appeared in numerous books
   and publications worldwide and has been celebrated with many international design
   awards.
-contact_email: info@faith.ca
-selected_press_and_publications: "Books: The Typography Idea Book, Inspiration from
+contact: info@faith.ca
+press: "Books: The Typography Idea Book, Inspiration from
   50 Masters, Laurence King • Asian Pacific Design No. 12, Sandu Publishing • Tokyo
   Type Directors Club • Graphis Typography 3, Graphis Inc. • Directions, The Advertising
   & Design Club of Canada • TDC 34, The New York Type Directors Club • Asian Pacific
@@ -57,7 +57,7 @@ selected_press_and_publications: "Books: The Typography Idea Book, Inspiration f
   Directors Club • Skill Share • Flash Reproductions • Comic Book Daily • 1006w10
   • Quarto Knows • Punk Films • Tipografia • Polyvore • Begin Being • Canadian Mags
   • IDEA Magazine • Gestalten • Under Consideration • Ariva • Unisource"
-selected_client_list: Coca-Cola • Pepsi • Ford • Proctor & Gamble • Simon & Schuster
+clients: Coca-Cola • Pepsi • Ford • Proctor & Gamble • Simon & Schuster
   • Harlequin • Bath & Body Works • Channel Zero • McDonalds • MLB • Canwest Global
   • NBA • Jugnoo • Dairy Farmers Of Canada • Pizza Nova • Bata Shoes International
   • NHL • Footlocker • Forzani Group • Lush Magazine • Outdoor Life Network • Pfizer
