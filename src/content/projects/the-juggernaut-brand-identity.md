@@ -7,8 +7,8 @@ description: The Juggernaut is an independent visual effects company that create
   alters its structure and configuration throughout multiple applications.
 gallery_images:
 - "/media/Juggernaut 1.jpg"
-- "/media/The Juggernaut #2.jpg"
-- "/media/The Juggernaut #3.jpg"
+- "/media/The Juggernaut 2.jpg"
+- "/media/The Juggernaut 3.jpg"
 thumbnail: "/media/The Juggernaut Main image .jpg"
 
 ---

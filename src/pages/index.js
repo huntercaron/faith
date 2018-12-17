@@ -11,8 +11,10 @@ const SectionTitle = ({ title }) => (
   </h2>
 )
 
-const IndexPage = ({ data: { projects: { edges: projects }}}) => (
+const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmatter: { projectOrder } }}}) => (
   <Layout>
+    {projectOrder}
+  
     {projects.map(({ node: project }, i) => 
       <Project 
         key={project.id}
@@ -34,6 +36,12 @@ export default IndexPage
 
 export const query = graphql`
   query IndexQuery {
+    homepage: markdownRemark (fileAbsolutePath: { regex: "/homepage.md/" }) {
+      frontmatter {
+        projectOrder
+      }
+    }
+
     projects: allMarkdownRemark(filter: { fields: { slug: { regex: "/projects/" }}}) {
       edges {
         node {

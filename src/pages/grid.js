@@ -24,31 +24,48 @@ const Grid = styled.div`
   border: 1px solid red;
 `;
 
-const IndexPage = ({ data: { projects: { edges: projects }}}) => (
-  <Layout>
-    <Grid>
-      {projects.map(({ node: project }, i) => 
-        <Project 
-          key={project.id}
-          index={i+1}
-          link={project.fields.slug}
-          title={project.frontmatter.title}
-          thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
-          
-        />
-      )}
-    </Grid>
-  </Layout>
-)
+const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmatter: { projectOrder }}}}) => {
+  projects.map(project => {
+    return project.relativePath = "src/" + project.node.fileAbsolutePath.split("src/")[1]
+  })
+
+  projects.sort((a, b) => {
+    return projectOrder.indexOf(a.relativePath) - projectOrder.indexOf(b.relativePath)
+  });
+
+  return (
+    <Layout>
+      <Grid>
+        {projects.map(({ node: project }, i) => 
+          <Project 
+            key={project.id}
+            index={i+1}
+            link={project.fields.slug}
+            title={project.frontmatter.title}
+            thumbnail={project.frontmatter.thumbnail.childImageSharp.fluid}
+            
+          />
+        )}
+      </Grid>
+    </Layout>
+  )
+}
 
 export default IndexPage
 
 export const query = graphql`
   query GridQuery {
+    homepage: markdownRemark (fileAbsolutePath: { regex: "/homepage.md/" }) {
+      frontmatter {
+        projectOrder
+      }
+    }
     projects: allMarkdownRemark(filter: { fields: { slug: { regex: "/projects/" }}}) {
       edges {
         node {
           id
+          fileAbsolutePath
+
           frontmatter {
             title
             thumbnail {
