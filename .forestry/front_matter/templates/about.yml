@@ -27,7 +27,7 @@ fields:
   config:
     required: true
 - type: textarea
-  name: selected_press_and_publications
+  name: press
   label: Selected Press & Publications
   config:
     required: true
