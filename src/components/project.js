@@ -9,10 +9,10 @@ const Project = ({ title, thumbnail, link, projectKey }) => (
             <div className="proj-inner">
                 <Img fluid={thumbnail} backgroundColor="#ffffff" className={`proj-${projectKey}-img proj-image`}/>
 
-                <div class="project-info">
-                    <div class={`proj-rect proj-${projectKey}-rect`}>
-                        <div class="proj-text-box">
-                            <h4><span class="underline">_____ </span>{title}</h4>
+                <div className="project-info">
+                    <div className={`proj-rect proj-${projectKey}-rect`}>
+                        <div className="proj-text-box">
+                            <h4><span className="underline">_____ </span>{title}</h4>
                         </div>
                     </div>
                 </div>
@@ -22,16 +22,16 @@ const Project = ({ title, thumbnail, link, projectKey }) => (
 )
 
 // const Project = ({ link, title, thumbnail, index }) => (
-//   <div class={`project proj-${index}-box`} >
+//   <div className={`project proj-${index}-box`} >
 //     <Link to={link}>
-//         <div class={`proj-${index} proj-inner`}>
-//             <div class="image-box">
-//                 <Img class={`proj-${index}-img proj-img`} fluid={thumbnail}/>
+//         <div className={`proj-${index} proj-inner`}>
+//             <div className="image-box">
+//                 <Img className={`proj-${index}-img proj-img`} fluid={thumbnail}/>
 
-//                 <div class="project-info">
-//                     <div class={`proj-rect proj-${index}-rect`}>
-//                         <div class="proj-text-box">
-//                             <h4><span class="underline">_____ </span>{title}</h4>
+//                 <div className="project-info">
+//                     <div className={`proj-rect proj-${index}-rect`}>
+//                         <div className="proj-text-box">
+//                             <h4><span className="underline">_____ </span>{title}</h4>
 //                         </div>
 //                     </div>
 //                 </div>

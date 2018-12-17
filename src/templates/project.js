@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Img from "gatsby-image"
 import styled from 'styled-components';
 
-import Layout from '../components/layout'
 import { SmallCross } from '../components/crosses'
 
 const Title = styled.h1`
@@ -81,10 +80,8 @@ class ProjectTemplate extends React.Component {
     const siteDescription = project.excerpt
 
     return (
-      <Layout location={this.props.location}>
+      <div>
         <Container>
-          <SmallCross left />
-
           <Helmet
             htmlAttributes={{ lang: 'en' }}
             meta={[{ name: 'description', content: siteDescription }]}
@@ -101,10 +98,8 @@ class ProjectTemplate extends React.Component {
               <Img backgroundColor="#fbfbfb" key={image.id} fluid={image.childImageSharp.fluid}/>
             )}
           </Gallery>
-
         </Container>
-
-      </Layout>
+      </div>
     )
   }
 }

@@ -18,6 +18,10 @@ html {
     height: 100%;
 }
 
+#___gatsby {
+  height: 100%;
+}
+
 body {
     height: 100%;
     font-size: 1.6em;
@@ -73,9 +77,10 @@ a:hover {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .cross-box {
+    position: fixed;
     top: 0;
     left: 0;
-
+    z-index: 10;
     transition: all 830ms cubic-bezier(.14,.6,.36,1);
 }
 
@@ -86,7 +91,6 @@ a:hover {
     top:0;
     transform: scale(1) translateY(40.3%);
     transform-origin: top center;
-    z-index: 2;
     cursor: pointer;
 
     transition: all 530ms cubic-bezier(.14,.6,.36,1);
@@ -269,10 +273,6 @@ a:hover {
 
     height: 100%;
     width: 100%;
-
-}
-
-.gallery-img {
 
 }
 
@@ -1309,10 +1309,6 @@ a:hover {
     transition: all 400ms 200ms cubic-bezier(.14,.6,.36,1);
 }
 
-.gallery.hide-gallery {
-    transform:  scale(0.95) !important;
-}
-
 
 
 
@@ -1320,10 +1316,6 @@ a:hover {
     opacity: 0;
 }
 
-.hide-project > .top-projects-box {
-    transform: translateY(16px) scale(0.96) !important;
-    transition: all 300ms cubic-bezier(.14,.6,.36,1) !important;
-}
 
 .proj-1-box { transition: all 1.8s 0ms cubic-bezier(.14,.6,.36,1); }
 .proj-2-box { transition: all 2s 200ms cubic-bezier(.14,.6,.36,1); }

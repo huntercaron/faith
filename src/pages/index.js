@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import './index.css'
 
-import Layout from '../components/layout'
 import Project from '../components/project'
 import { BigCross } from '../components/crosses'
 
@@ -18,9 +17,7 @@ const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmat
   const activeProjects = projects.filter(project => projectOrder.indexOf(project.relativePath) > -1);
 
   return (
-    <Layout>
-      <BigCross />
-
+    <div>
       <div className="grid">
         {activeProjects.map(({ node: project }, i) => 
           <Project 
@@ -33,7 +30,7 @@ const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmat
           />
         )}
       </div>
-    </Layout>
+    </div>
   )
 }
 

@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
 import { SmallCross } from '../components/crosses'
 
 const AboutTemplate = (props) => {
@@ -17,13 +16,11 @@ const AboutTemplate = (props) => {
   } = props.data.markdownRemark.frontmatter
 
   return (
-    <Layout location={props.location} pageTitle={about.frontmatter.title}>
+    <div>
       <Helmet
         htmlAttributes={{ lang: 'en' }}
-        title={`${about.frontmatter.title} | ${siteTitle}`}
+        title={`About | ${siteTitle}`}
       />
-
-      <SmallCross />
 
       <div className="info">
         <div className="info-inner">
@@ -46,7 +43,7 @@ const AboutTemplate = (props) => {
       </div>
 
 
-    </Layout>
+    </div>
   )
 }
 
