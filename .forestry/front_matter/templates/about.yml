@@ -13,38 +13,31 @@ fields:
   type: text
   hidden: true
   default: about
-- type: color
-  name: color
-  config:
-    color_format: Hex
-    required: true
-  label: Color
-  default: "#50E3C2"
-- name: description
+- type: textarea
+  name: description
   label: Description
-  type: text
-  hidden: false
-  default: ''
-- name: libraries
-  label: Libraries
-  type: list
-  hidden: false
-  default: ''
-- name: social
-  label: Social
-  type: field_group_list
-  fields:
-  - name: name
-    label: Name
-    type: text
-    hidden: false
-    default: ''
-  - name: link
-    label: Link
-    type: text
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+- type: text
+  name: contact_email
+  label: Contact Email
+  config:
+    required: true
+- type: textarea
+  name: selected_press_and_publications
+  label: Selected Press & Publications
+  config:
+    required: true
+- type: textarea
+  name: selected_client_list
+  label: Selected Client list
+- type: textarea
+  name: awards
+  label: Awards
+  config:
+    required: true
 pages:
 - src/content/about.md
