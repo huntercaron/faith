@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
+import { SmallCross } from '../components/crosses'
 
 class AboutTemplate extends React.Component {
   render() {
@@ -16,31 +17,10 @@ class AboutTemplate extends React.Component {
           title={`${about.frontmatter.title} | ${siteTitle}`}
         />
 
-        <div style={{margin: "0 3rem", maxWidth: "700px"}}>
-          <p>{about.frontmatter.description}</p>
-
-          <h4>A list field: Social</h4>
-          <ul>
-            {about.frontmatter.social.map(link => 
-              <li>
-                <a href={link.link}>{link.name}</a>
-              </li>
-            )}
-          </ul>
-
-          <h4>Another list field: Libraries</h4>
-          <ul>
-            {about.frontmatter.libraries.map(lib => 
-              <li>{lib}</li>
-            )}
-          </ul>
+        <SmallCross />
 
 
-          <h4>Color Field</h4>
-          <div
-            style={{ width: "100px", height: "100px", background: about.frontmatter.color }}
-          />
-        </div>
+        
       </Layout>
     )
   }

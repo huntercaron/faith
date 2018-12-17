@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import styled from 'styled-components';
 
 import Layout from '../components/layout'
+import { SmallCross } from '../components/crosses'
 
 const Title = styled.h1`
     text-align: left;
@@ -82,6 +83,8 @@ class ProjectTemplate extends React.Component {
     return (
       <Layout location={this.props.location}>
         <Container>
+          <SmallCross left />
+
           <Helmet
             htmlAttributes={{ lang: 'en' }}
             meta={[{ name: 'description', content: siteDescription }]}

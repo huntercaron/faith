@@ -13,18 +13,6 @@ description: Faith is a multifaceted creative design agency with a focus on fash
   and the influence of a collective skillset. Our work has appeared in numerous books
   and publications worldwide and has been celebrated with many international design
   awards.
-libraries:
-- GraphQL
-- Gatsby
-- React
-social:
-- name: Instagram
-  link: https://www.instagram.com/hunterhcaron/
-- name: Twitter
-  link: https://twitter.com/huntercaron
-- name: Website
-  link: http://huntercaron.com
-color: "#70FFE4"
 contact_email: info@faith.ca
 selected_press_and_publications: "Books: The Typography Idea Book, Inspiration from
   50 Masters, Laurence King • Asian Pacific Design No. 12, Sandu Publishing • Tokyo
