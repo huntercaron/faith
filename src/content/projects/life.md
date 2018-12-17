@@ -1,5 +1,5 @@
 ---
-title: Fshnunlimited “Life and Death” Edition
+title: "Fshnunlimited \n“Life and Death” Edition"
 template: project
 key: life
 date: 2018-11-18T01:42:51+00:00
