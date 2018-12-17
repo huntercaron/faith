@@ -1,5 +1,5 @@
 ---
-title: Yorkville Village “Style Revolution"
+title: "Yorkville Village \n“Style Revolution\""
 template: project
 key: yorkville
 date: 2018-11-18T01:42:51+00:00
