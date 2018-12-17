@@ -22,7 +22,7 @@ fields:
     schema:
       format: markdown
 - type: text
-  name: contact_email
+  name: contact
   label: Contact Email
   config:
     required: true
@@ -32,8 +32,10 @@ fields:
   config:
     required: true
 - type: textarea
-  name: selected_client_list
+  name: clients
   label: Selected Client list
+  config:
+    required: true
 - type: textarea
   name: awards
   label: Awards
