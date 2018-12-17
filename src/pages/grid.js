@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
-import PageLink from '../components/pageLink'
 
 const ProjectContainer = styled.div`
   border: 1px solid blue;
@@ -33,10 +32,12 @@ const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmat
     return projectOrder.indexOf(a.relativePath) - projectOrder.indexOf(b.relativePath)
   });
 
+  const activeProjects = projects.filter(project => projectOrder.indexOf(project.relativePath) > -1);
+
   return (
     <Layout>
       <Grid>
-        {projects.map(({ node: project }, i) => 
+        {activeProjects.map(({ node: project }, i) => 
           <Project 
             key={project.id}
             index={i+1}
