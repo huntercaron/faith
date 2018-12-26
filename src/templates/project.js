@@ -38,13 +38,6 @@ const Description = styled.div`
   width: 100%;
 `;
 
-const Underline = styled.span`
-  color: transparent;
-  border-bottom: 1px solid white;
-  letter-spacing: -1.5px;
-  border-color: black;
-`;
-
 const Container = styled.div`
   width: 100%;
   margin: 30vh 0 4rem 0;
@@ -90,7 +83,7 @@ class ProjectTemplate extends React.Component {
           />
 
           <Info>
-            <Title><Underline>______ </Underline> {project.frontmatter.title}</Title>
+            <Title><span className="underline">______ </span> {project.frontmatter.title}</Title>
             <Description dangerouslySetInnerHTML={{ __html: project.frontmatter.description }} />
           </Info>
         

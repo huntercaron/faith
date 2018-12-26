@@ -53,7 +53,7 @@ const Layout = ({ children, pageTitle, location }) => (
         <div style={{...getCrossStyle[(!(location.pathname === "/") ? 'active' : 'inactive')]}}>
           <SmallCross 
             style={{opacity: 0, ...getCrossStyle[(!(location.pathname.includes("about")) ? 'active' : 'inactive')]}}
-            left
+            left={true}
           />
 
           <SmallCross 
