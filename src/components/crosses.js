@@ -16,7 +16,7 @@ const BigCross = (props) => (
 
 const SmallCross = (props) => (
   <Link to="/">
-    <div className={"cross-box thin-cross-box hidden-cross " + (props.left && "left-cross-box")} {...props}> 
+    <div className={"cross-box thin-cross-box hidden-cross " + (props.align === "LEFT" && "left-cross-box")} {...props}> 
       <img className="cross" alt="cross-logo" src={thickCross}/>
       <img className="cross cross-thin" alt="cross-logo" src={thinCross}/>
     </div>

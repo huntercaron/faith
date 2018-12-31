@@ -21,7 +21,7 @@ const getCrossStyle = {
   },
 }
 
-const Layout = ({ children, pageTitle, location }) => (
+const Layout = (props) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -46,26 +46,24 @@ const Layout = ({ children, pageTitle, location }) => (
         </Helmet>
       
 
-
-        <BigCross style={{...getCrossStyle[(location.pathname === "/" ? 'active' : 'inactive')]}}/>
-
-
-        <div style={{...getCrossStyle[(!(location.pathname === "/") ? 'active' : 'inactive')]}}>
+        <BigCross style={{...getCrossStyle[(props.location.pathname === "/" ? 'active' : 'inactive')]}}/>
+          
+        <div style={{...getCrossStyle[((props.location.pathname !== "/") ? 'active' : 'inactive')]}}>
           <SmallCross 
-            style={{opacity: 0, ...getCrossStyle[(!(location.pathname.includes("about")) ? 'active' : 'inactive')]}}
-            left={true}
+            style={{opacity: 0, ...getCrossStyle[(!(props.location.pathname.includes("about")) ? 'active' : 'inactive')]}}
+            align="LEFT"
           />
 
           <SmallCross 
-            style={{opacity: 0, ...getCrossStyle[(location.pathname.includes("about") ? 'active' : 'inactive')]}}
+            style={{opacity: 0, ...getCrossStyle[(props.location.pathname.includes("about") ? 'active' : 'inactive')]}}
           />
         </div>
 
 
-        <Transition location={location}>
+        <Transition location={props.location}>
           <div style={{ position: "relative" }}>
-          { console.log(location)}
-            {children}
+          { console.log(props)}
+            {props.children}
           </div>
         </Transition>
       </div>

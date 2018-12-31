@@ -506,25 +506,10 @@ a:hover {
     position: relative;
 }
 
-.proj-text-box {
-
-}
-
 .proj-inner {
     cursor: pointer;
 }
 
-.proj-inner:hover .proj-text-box h4 {
-
-}
-
-.proj-inner:hover .proj-img {
-
-}
-
-.proj-inner:hover .proj-rect {
-
-}
 
 .proj-inner:hover .proj-text-box h4 {
     letter-spacing: 0.1px !important;
@@ -542,10 +527,6 @@ a:hover {
 
 .proj-inner:hover .proj-rect .underline {
     border-color: black;
-}
-
-.image-box:hover > .project-info .proj-rect {
-
 }
 
 
@@ -655,8 +636,6 @@ a:hover {
     margin: 40px 8% 0;
     position: relative;
 }
-
-.proj-3 {}
 
 .proj-3-rect {
     right: 0;
@@ -929,13 +908,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
-
-
-.proj-1-1-rect .proj-text-box {
-
-}
-
 .proj-inner:hover .proj-1-1-rect {
     background-color: #f6f6f6;
 }
@@ -1286,10 +1258,6 @@ a:hover {
     transition: all 300ms ease-out;
 }
 
-.grey-bg {
-
-}
-
 .hide {
     opacity: 0;
 }
@@ -1343,5 +1311,6 @@ a:hover {
 
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: none;
+    border-radius: none;
     background: #ccc;
 }

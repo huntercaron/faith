@@ -5,8 +5,6 @@ import Img from "gatsby-image"
 import styled from 'styled-components';
 import "intersection-observer"
 
-import { SmallCross } from '../components/crosses'
-
 const Title = styled.h1`
     text-align: left;
     font-size: 1.35rem;
@@ -73,6 +71,8 @@ class ProjectTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = project.excerpt
 
+    // console.log(this.props)
+
     return (
       <div>
         <Container>
@@ -83,7 +83,7 @@ class ProjectTemplate extends React.Component {
           />
 
           <Info>
-            <Title><span className="underline">______ </span> {project.frontmatter.title}</Title>
+            <Title><span className="underline underline-black">______ </span> {project.frontmatter.title}</Title>
             <Description dangerouslySetInnerHTML={{ __html: project.frontmatter.description }} />
           </Info>
         
