@@ -2,10 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
-import { SmallCross } from '../components/crosses'
 
 const AboutTemplate = (props) => {
-  const about = props.data.markdownRemark
   const siteTitle = props.data.site.siteMetadata.title
   const {
     description,

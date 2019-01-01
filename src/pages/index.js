@@ -4,7 +4,6 @@ import "intersection-observer"
 import './index.css'
 
 import Project from '../components/project'
-import { BigCross } from '../components/crosses'
 
 const IndexPage = ({ data: { projects: { edges: projects }, homepage: { frontmatter: { projectOrder }}}}) => {
   projects.map(project => {
