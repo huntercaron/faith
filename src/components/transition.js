@@ -22,6 +22,14 @@ const getTransitionStyles = {
 }
 
 class Transition extends React.PureComponent {
+  onEntering = () => {
+    this.props.onEntering()    
+  }
+
+  onExited = () => {
+    this.props.onExited()
+  }
+
   render() {
     const { children, location } = this.props
 
@@ -29,17 +37,15 @@ class Transition extends React.PureComponent {
       <TransitionGroup>
         <ReactTransition
           key={location.pathname}
+          onExited={this.onExited}
+          onEntering={this.onEntering}
           timeout={{
             enter: timeout,
             exit: timeout,
           }}
         >
           {status => (
-            <div
-              style={{
-                ...getTransitionStyles[status],
-              }}
-            >
+            <div style={{...getTransitionStyles[status]}}>
               {children}
             </div>
           )}

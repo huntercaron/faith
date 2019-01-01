@@ -21,55 +21,91 @@ const getCrossStyle = {
   },
 }
 
-const Layout = (props) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <div>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Faith is a multifaceted creative design agency with a focus on fashion, retail, luxury, and lifestyle sectors.' },
-            { name: 'keywords', content: 'design, faith' },
-            { name: 'author', content: 'Paul Sych'}
-          ]}
-        >
-          <html lang="en" />
-        </Helmet>
+class Layout extends React.Component {
+  state = {
+    leftAlignCross: false
+  }
+
+  componentDidUpdate() {
+    // console.log(this.props)
+    // console.log(this.props.location)
+  }
+
+  updateCrossAlignment = () => {
+    this.setState({
+      leftAlignCross: this.props.location.pathname.includes("projects")
+    })
+  }
+
+  componentDidMount() {
+    this.updateCrossAlignment()
+  }
+
+
+  onExited = () => {
+    if (!this.props.location.pathname.includes("projects")) {
+      setTimeout(() => {
+        this.updateCrossAlignment()
+      }, 100)
+    }
       
+  }
 
-        <BigCross style={{...getCrossStyle[(props.location.pathname === "/" ? 'active' : 'inactive')]}}/>
+  onEntering = () => {
+    if (this.props.location.pathname.includes("projects"))
+      this.updateCrossAlignment()
+  }
+
+
+
+  render() {
+    const { location, children } = this.props
+
+    return (
+      <StaticQuery
+        query={graphql`
+          query SiteTitleQuery {
+            site {
+              siteMetadata {
+                title
+              }
+            }
+          }
+        `}
+        render={data => (
+          <div>
+            <Helmet
+              title={data.site.siteMetadata.title}
+              meta={[
+                { name: 'description', content: 'Faith is a multifaceted creative design agency with a focus on fashion, retail, luxury, and lifestyle sectors.' },
+                { name: 'keywords', content: 'design, faith' },
+                { name: 'author', content: 'Paul Sych'}
+              ]}
+            >
+              <html lang="en" />
+            </Helmet>
           
-        <div style={{...getCrossStyle[((props.location.pathname !== "/") ? 'active' : 'inactive')]}}>
-          <SmallCross 
-            style={{opacity: 0, ...getCrossStyle[(!(props.location.pathname.includes("about")) ? 'active' : 'inactive')]}}
-            align="LEFT"
-          />
 
-          <SmallCross 
-            style={{opacity: 0, ...getCrossStyle[(props.location.pathname.includes("about") ? 'active' : 'inactive')]}}
-          />
-        </div>
+            <BigCross style={{...getCrossStyle[(location.pathname === "/" ? 'active' : 'inactive')]}}/>
+              
+            <div style={{...getCrossStyle[((location.pathname !== "/") ? 'active' : 'inactive')]}}>
+              <SmallCross 
+                align={this.state.leftAlignCross ? "LEFT" : ""}
+              />
+            </div>
 
 
-        <Transition location={props.location}>
-          <div style={{ position: "relative" }}>
-          { console.log(props)}
-            {props.children}
+            <Transition location={location} onExited={this.onExited} onEntering={this.onEntering}>
+              <div style={{ position: "relative" }}>
+                {children}
+              </div>
+            </Transition>
           </div>
-        </Transition>
-      </div>
-    )}
-  />
-)
+        )}
+      />
+    )
+  }
+}
 
 
 export default Layout;
