@@ -14,6 +14,7 @@ projectOrder:
 - src/content/projects/life.md
 - src/content/projects/look.md
 - src/content/projects/ufo.md
+- src/content/projects/the-juggernaut-brand-identity.md
 - src/content/projects/inception.md
 
 ---

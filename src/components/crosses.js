@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import './crosses.js'
 
 import cross from './../assets/cross.svg'
+// import whiteCross from './../assets/cross-white.svg'
 import thinCross from './../assets/cross-thin.svg'
 import thickCross from './../assets/cross-thick.svg'
 

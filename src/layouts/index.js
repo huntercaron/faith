@@ -61,6 +61,8 @@ class Layout extends React.Component {
   render() {
     const { location, children } = this.props
 
+    console.log(location.pathname === "/")
+
     return (
       <StaticQuery
         query={graphql`
@@ -85,10 +87,10 @@ class Layout extends React.Component {
               <html lang="en" />
             </Helmet>
           
-
-            <BigCross style={{...getCrossStyle[(location.pathname === "/" ? 'active' : 'inactive')]}}/>
+              {/* <h1>{location.pathname}</h1> */}
+            <BigCross style={{...getCrossStyle[((location.pathname === "/" || location.pathname === "/offline-plugin-app-shell-fallback/") ? 'active' : 'inactive')]}}/>
               
-            <div style={{...getCrossStyle[((location.pathname !== "/") ? 'active' : 'inactive')]}}>
+            <div style={{...getCrossStyle[((location.pathname !== "/" && location.pathname !== "/offline-plugin-app-shell-fallback/") ? 'active' : 'inactive')]}}>
               <SmallCross 
                 align={this.state.leftAlignCross ? "LEFT" : ""}
               />

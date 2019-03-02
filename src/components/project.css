@@ -477,6 +477,30 @@
     width: 140px;
 }
 
+/* proj-juggernaut */
+
+.proj-juggernaut-box {
+    width: 55%;
+    padding-left: 125px;
+    padding-top: 12%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.proj-juggernaut-rect {
+    width: 71%;
+    left: 12%;
+    height: 68%;
+    top: 0%;
+}
+
+.proj-juggernaut-rect .proj-text-box {
+    text-align: right;
+    position: absolute;
+    right: 8%;
+    bottom: 80px;
+    width: 150px;
+}
 
 /* proj-inception */
 
@@ -741,6 +765,14 @@
         height: 50%;
         padding-left: 40%;
         padding-top: 60px;
+    }
+
+    .proj-juggernaut-box {
+        width: 95%;
+        padding-top: 0;
+        margin-top: 20%;
+        margin-bottom: 16%;
+        padding-left: 8%;
     }
 
     .proj-inception-box {
