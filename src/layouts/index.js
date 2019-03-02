@@ -26,11 +26,6 @@ class Layout extends React.Component {
     leftAlignCross: false
   }
 
-  componentDidUpdate() {
-    // console.log(this.props)
-    // console.log(this.props.location)
-  }
-
   updateCrossAlignment = () => {
     this.setState({
       leftAlignCross: this.props.location.pathname.includes("projects")
@@ -60,8 +55,6 @@ class Layout extends React.Component {
 
   render() {
     const { location, children } = this.props
-
-    console.log(location.pathname === "/")
 
     return (
       <StaticQuery
