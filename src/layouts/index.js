@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import './layout.css'
 import Transition from "../components/transition"
 import { BigCross, SmallCross } from '../components/crosses';
+import { Overlays } from "../components/overlays";
 
 const timeout = 400;
 
@@ -80,7 +81,7 @@ class Layout extends React.Component {
               <html lang="en" />
             </Helmet>
           
-              {/* <h1>{location.pathname}</h1> */}
+            
             <BigCross style={{...getCrossStyle[((location.pathname === "/" || location.pathname === "/offline-plugin-app-shell-fallback/") ? 'active' : 'inactive')]}}/>
               
             <div style={{...getCrossStyle[((location.pathname !== "/" && location.pathname !== "/offline-plugin-app-shell-fallback/") ? 'active' : 'inactive')]}}>
@@ -89,6 +90,7 @@ class Layout extends React.Component {
               />
             </div>
 
+            <Overlays />
 
             <Transition location={location} onExited={this.onExited} onEntering={this.onEntering}>
               <div style={{ position: "relative" }}>

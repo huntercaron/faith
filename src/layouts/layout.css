@@ -160,7 +160,7 @@ a:hover {
     height: 100%;
     position: fixed;
     z-index: 10;
-    opacity: 0;
+    /* opacity: 0; */
     pointer-events: none;
     background-size: contain;
     background-position: center;
@@ -170,6 +170,7 @@ a:hover {
 }
 
 .overlay-002 {
+    top: 0;
     background-position: left;
 }
 
