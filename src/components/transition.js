@@ -10,13 +10,13 @@ const getTransitionStyles = {
   entered: {
     transition: `all ${timeout}ms ease-in-out`,
     transform: `translateY(0) scale(1)`,
-    transformOrigin: `top center`,
+    transformOrigin: `center bottom`,
     opacity: 1,
   },
   exiting: {
     transition: `all ${timeout}ms ease-in-out`,
-    transform: `translateY(10px) scale(0.95)`,
-    transformOrigin: `top center`,
+    transform: `scale(0.995)`,
+    transformOrigin: `center bottom`,
     opacity: 0,
   },
 }
@@ -45,7 +45,7 @@ class Transition extends React.PureComponent {
           }}
         >
           {status => (
-            <div style={{...getTransitionStyles[status]}}>
+            <div style={{...getTransitionStyles[status]}} >
               {children}
             </div>
           )}
