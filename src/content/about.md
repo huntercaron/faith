@@ -14,6 +14,7 @@ description: Faith is a multifaceted creative design agency with a focus on fash
   and publications worldwide and has been celebrated with many international design
   awards.
 contact: info@faith.ca
+instagram: https://www.instagram.com/paulsych/
 press: "Books: The Typography Idea Book, Inspiration from 50 Masters, Laurence King
   • Asian Pacific Design No. 12, Sandu Publishing • Tokyo Type Directors Club • Graphis
   Typography 3, Graphis Inc. • Directions, The Advertising & Design Club of Canada

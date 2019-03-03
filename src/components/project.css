@@ -55,7 +55,9 @@
     align-items: center;
 }
 
-
+.proj-inner:hover .proj-covergirl-rect {
+    background-color: white;
+}
 
 /* proj-anna */
 
@@ -86,6 +88,11 @@
     right: 10px;
 }
 
+.proj-inner:hover .proj-anna-rect {
+    background-color: white;
+}
+
+
 
 /* proj-zombie */
 
@@ -109,6 +116,10 @@
     height: calc(130% + 150px);
     padding-top: 96%;
     z-index: 1; 
+}
+
+.proj-inner:hover .proj-zombie-rect {
+    background-color: white;
 }
 
 
@@ -156,6 +167,10 @@
     margin-top: calc( 24px + 3% );
     text-align: left;
     margin-left: 10%;
+}
+
+.proj-inner:hover .proj-war-rect {
+    background-color: white;
 }
 
 
@@ -264,6 +279,11 @@
 }
 
 
+.proj-inner:hover .proj-meg-rect {
+    background-color: white;
+}
+
+
 
 /* proj-masseria */
 .proj-masseria-box {
@@ -300,6 +320,10 @@
     right: 8%;
     bottom: 30px;
     width: 120px;
+}
+
+.proj-inner:hover .proj-masseria-rect {
+    background-color: white;
 }
 
 
@@ -502,6 +526,11 @@
     width: 150px;
 }
 
+.proj-inner:hover .proj-juggernaut-rect {
+    background-color: white;
+}
+
+
 /* proj-inception */
 
 .proj-inception-box {
@@ -530,6 +559,11 @@
     bottom: 20px;
     width: 140px;
 }
+
+.proj-inner:hover .proj-inception-rect {
+    background-color: white;
+}
+
 
 
 

@@ -340,6 +340,10 @@ a:hover {
     margin-bottom: 50px;
 }
 
+.info-inner .no-margin {
+    margin-bottom: 0px;
+}
+
 .info-inner a {
     text-decoration: none;
     color: #999;

@@ -10,7 +10,8 @@ const AboutTemplate = (props) => {
     contact,
     press,
     clients,
-    awards
+    awards,
+    instagram
   } = props.data.markdownRemark.frontmatter
 
   return (
@@ -26,7 +27,8 @@ const AboutTemplate = (props) => {
 
           <h4>
             contact 
-            <p><a href={`mailto:${contact}`}>{contact}</a></p>
+            <p className="no-margin"><a href={`mailto:${contact}`}>{contact}</a></p>
+            <p><a href={instagram} target="_blank" rel="noopener noreferrer" >instagram</a></p>
           </h4>
 
           <h4>Selected Press & Publications</h4>
@@ -60,6 +62,7 @@ export const pageQuery = graphql`
         description
         contact
         press
+        instagram
         clients
         awards
       }
