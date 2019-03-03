@@ -166,7 +166,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
 
-    transition: opacity 200ms ease-out;
+    transition: opacity 150ms ease-out;
 }
 
 .overlay-002 {

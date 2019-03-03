@@ -35,7 +35,7 @@ export const Overlays = () => {
     const rands = Array(3).fill(0).map(() => (milli % randNum()) === 0);
     const trueIndex = rands.indexOf(true);
     setOverlayIndex((trueIndex > -1) ? trueIndex : null)
-    setTimeout(() => { setOverlayIndex(null) }, 250);
+    setTimeout(() => { setOverlayIndex(null) }, 150);
   }, 12043)
 
   return (
