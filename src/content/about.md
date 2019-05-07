@@ -15,51 +15,51 @@ description: Faith is a multifaceted creative design agency with a focus on fash
   awards.
 contact: info@faith.ca
 instagram: https://www.instagram.com/paulsych/
-press: "Books: Letterforms, Typeface Design from Past to Future, Rockport • Graphis
-  Journal, Graphis Inc. • The Typography Idea Book, Inspiration from 50 Masters, Laurence
-  King • Asian Pacific Design No. 12, Sandu Publishing • Tokyo Type Directors Club
-  • Graphis Typography 3, Graphis Inc. • Directions, The Advertising & Design Club
-  of Canada • TDC 34, The New York Type Directors Club • Asian Pacific Design, Sandu
-  Publishing • Graphis Logo Design 8, Graphis Inc. • Los Logos 6, Gestalten • Graphis
-  Photography Annual, Graphis Inc. • Symbol, Laurence King • Page Unlimited: Innovations
-  in Layout Design, Sandu Publishing • New Modernist Type, Thames & Hudson • Fuse
-  1-20, Taschen • Who’s Who?, Graphic Designers of the World Today • Graphis Design
-  Annual 2011, Graphis Inc • Playful Type 2, Gestalten • TDC 31, The New York Type
-  Directors Club • Los Logos Compass, Gestalten • 1000 Symbols, Rockport • Logolounge
-  Master Library, Rockport • Typography Essentials: 100 Design Principles for Working
-  with Type, Rockport • New Ornamental Type, Thames & Hudson • Logo-Art, Rotovision
-  • Playful Type, Gestalten • Los Logos 4, Gestalten • Logolounge 4, Rockport • Made
-  with FontFont, BIS Publishers • Tres Logos, Gestalten • 1000 Design Elements, Rockport
-  • Spatium • Identity Design That Works, Rockport • Designing with Found Objects
-  • Provocative Graphics, Rockport • Extreme Fonts 2, Madison Square Press • Radical
-  Design, Rockport • Moving Type, Thames & Hudson • Sonic Graphics: Seeing Sound,
-  Thames & Hudson • Typology, Chronicle Books • Applied Typography 7, Graphic Sha
-  Pub Co • Working With Computer Type: Experimental Typography, Rotovision • New International
-  Typography • Emotional Digital • Graphic Design: Innovations & Inspirations 2, North
-  Light Books • Type In The Digital Age • Graphis Digital Fonts, Graphis Inc • Symbols
-  & Trademarks of Canada, Picador • Street Smart Design, North Light Books • Innovations
-  & Inspirations, Design Inspired By All That Jazz • Design 2000\n\n\nMagazines &
-  Periodicals: Typo, (DE) • Design Bureau Magazine (US) • Applied Arts Magazine (CA)
-  • Azure Magazine (CA) • Page Magazine (DE) • The National Post (CA) • How Magazine
-  (US) • West Magazine (CA) • Masthead Magazine (CA) • Your Office Magazine (CA) •
-  Step By Step Magazine (US) • Electronic Magazine (US) • The Globe & Mail (CA) •
-  Communication Arts Magazine (US) • Letter Arts Magazine (US) • iDN Magazine (JP)
-  • IDEA Magazine (JP) • Eye Magazine (UK) • Confetti Magazine (US) • Fontasia Magazine
-  (US) • EC&I Magazine (US) • Studio Magazine (CA) \n\n\nOnline: Ming Pao Daily News
-  • The Stack, Monocle • Design Chat • Y-File, York University • The Society of Typographic
-  Arts (STA) • BlueLine By Domtar • Applied Arts Magazine • Grain Edit • Creative
-  Review • hhhound • Creative Type • Masthead On-Line • Clio Sports • Jsonline • Design
-  Mafia • Ian Claridge • The Magenta Links • idN World • Lichtconlon • Communication
-  Arts • Spectrum Collective • Letter Cult • Change The Thought • Cyana Trendland
-  • Bla Style • Spek*Trum • Tumbler • My Still Life • Welshmans Thoughts • How Magazine
-  • The Canadian Design Resource • What Make Us • The Serif • Visualize Us • Ball
-  Dora, Typo-Grafik • Coroflot • Art Net Worker • Art Tower • Design Collector • Net
-  Vibes • Pinterest • Creative Mornings • Graphis • Alfalfa Studios • The National
-  Magazine Awards • Behance • ffffound • Indulgy • The Art Directors Club of Canada
-  • Luc Devroye • New York Type Directors Club • Skill Share • Flash Reproductions
-  • Comic Book Daily • 1006w10 • Quarto Knows • Punk Films • Tipografia • Polyvore
-  • Begin Being • Canadian Mags • IDEA Magazine • Gestalten • Under Consideration
-  • Ariva • Unisource"
+press: "Books: Asian Pacific Design No. 14, Sandu Publishing • Letterforms, Typeface
+  Design from Past to Future, Rockport • Graphis Journal, Graphis Inc. • The Typography
+  Idea Book, Inspiration from 50 Masters, Laurence King • Asian Pacific Design No.
+  12, Sandu Publishing • Tokyo Type Directors Club • Graphis Typography 3, Graphis
+  Inc. • Directions, The Advertising & Design Club of Canada • TDC 34, The New York
+  Type Directors Club • Asian Pacific Design, Sandu Publishing • Graphis Logo Design
+  8, Graphis Inc. • Los Logos 6, Gestalten • Graphis Photography Annual, Graphis Inc.
+  • Symbol, Laurence King • Page Unlimited: Innovations in Layout Design, Sandu Publishing
+  • New Modernist Type, Thames & Hudson • Fuse 1-20, Taschen • Who’s Who?, Graphic
+  Designers of the World Today • Graphis Design Annual 2011, Graphis Inc • Playful
+  Type 2, Gestalten • TDC 31, The New York Type Directors Club • Los Logos Compass,
+  Gestalten • 1000 Symbols, Rockport • Logolounge Master Library, Rockport • Typography
+  Essentials: 100 Design Principles for Working with Type, Rockport • New Ornamental
+  Type, Thames & Hudson • Logo-Art, Rotovision • Playful Type, Gestalten • Los Logos
+  4, Gestalten • Logolounge 4, Rockport • Made with FontFont, BIS Publishers • Tres
+  Logos, Gestalten • 1000 Design Elements, Rockport • Spatium • Identity Design That
+  Works, Rockport • Designing with Found Objects • Provocative Graphics, Rockport
+  • Extreme Fonts 2, Madison Square Press • Radical Design, Rockport • Moving Type,
+  Thames & Hudson • Sonic Graphics: Seeing Sound, Thames & Hudson • Typology, Chronicle
+  Books • Applied Typography 7, Graphic Sha Pub Co • Working With Computer Type: Experimental
+  Typography, Rotovision • New International Typography • Emotional Digital • Graphic
+  Design: Innovations & Inspirations 2, North Light Books • Type In The Digital Age
+  • Graphis Digital Fonts, Graphis Inc • Symbols & Trademarks of Canada, Picador •
+  Street Smart Design, North Light Books • Innovations & Inspirations, Design Inspired
+  By All That Jazz • Design 2000\n\n\nMagazines & Periodicals: Typo, (DE) • Design
+  Bureau Magazine (US) • Applied Arts Magazine (CA) • Azure Magazine (CA) • Page Magazine
+  (DE) • The National Post (CA) • How Magazine (US) • West Magazine (CA) • Masthead
+  Magazine (CA) • Your Office Magazine (CA) • Step By Step Magazine (US) • Electronic
+  Magazine (US) • The Globe & Mail (CA) • Communication Arts Magazine (US) • Letter
+  Arts Magazine (US) • iDN Magazine (JP) • IDEA Magazine (JP) • Eye Magazine (UK)
+  • Confetti Magazine (US) • Fontasia Magazine (US) • EC&I Magazine (US) • Studio
+  Magazine (CA) \n\n\nOnline: Ming Pao Daily News • The Stack, Monocle • Design Chat
+  • Y-File, York University • The Society of Typographic Arts (STA) • BlueLine By
+  Domtar • Applied Arts Magazine • Grain Edit • Creative Review • hhhound • Creative
+  Type • Masthead On-Line • Clio Sports • Jsonline • Design Mafia • Ian Claridge •
+  The Magenta Links • idN World • Lichtconlon • Communication Arts • Spectrum Collective
+  • Letter Cult • Change The Thought • Cyana Trendland • Bla Style • Spek*Trum • Tumbler
+  • My Still Life • Welshmans Thoughts • How Magazine • The Canadian Design Resource
+  • What Make Us • The Serif • Visualize Us • Ball Dora, Typo-Grafik • Coroflot •
+  Art Net Worker • Art Tower • Design Collector • Net Vibes • Pinterest • Creative
+  Mornings • Graphis • Alfalfa Studios • The National Magazine Awards • Behance •
+  ffffound • Indulgy • The Art Directors Club of Canada • Luc Devroye • New York Type
+  Directors Club • Skill Share • Flash Reproductions • Comic Book Daily • 1006w10
+  • Quarto Knows • Punk Films • Tipografia • Polyvore • Begin Being • Canadian Mags
+  • IDEA Magazine • Gestalten • Under Consideration • Ariva • Unisource"
 clients: The Dalí Universe • Yorkville Village • Coca-Cola • Pepsi • Ford • Proctor
   & Gamble • Simon & Schuster • Harlequin • Bath & Body Works • Channel Zero • McDonalds
   • MLB • Canwest Global • NBA • Jugnoo • Dairy Farmers Of Canada • Pizza Nova • Bata
