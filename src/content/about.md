@@ -46,20 +46,21 @@ press: "Books: Asian Pacific Design No. 14, Sandu Publishing • Letterforms, Ty
   (US) • The Globe & Mail (CA) • Communication Arts Magazine (US) • Letter Arts Magazine
   (US) • iDN Magazine (JP) • IDEA Magazine (JP) • Eye Magazine (UK) • Confetti Magazine
   (US) • Fontasia Magazine (US) • EC&I Magazine (US) • Studio Magazine (CA) \n\n\nOnline:
-  Ming Pao Daily News • The Stack, Monocle • Design Chat • Y-File, York University
-  • The Society of Typographic Arts (STA) • BlueLine By Domtar • Applied Arts Magazine
-  • Grain Edit • Creative Review • hhhound • Creative Type • Masthead On-Line • Clio
-  Sports • Jsonline • Design Mafia • Ian Claridge • The Magenta Links • idN World
-  • Lichtconlon • Communication Arts • Spectrum Collective • Letter Cult • Change
-  The Thought • Cyana Trendland • Bla Style • Spek*Trum • Tumbler • My Still Life
-  • Welshmans Thoughts • How Magazine • The Canadian Design Resource • What Make Us
-  • The Serif • Visualize Us • Ball Dora, Typo-Grafik • Coroflot • Art Net Worker
-  • Art Tower • Design Collector • Net Vibes • Pinterest • Creative Mornings • Graphis
-  • Alfalfa Studios • The National Magazine Awards • Behance • ffffound • Indulgy
-  • The Art Directors Club of Canada • Luc Devroye • New York Type Directors Club
-  • Skill Share • Flash Reproductions • Comic Book Daily • 1006w10 • Quarto Knows
-  • Punk Films • Tipografia • Polyvore • Begin Being • Canadian Mags • IDEA Magazine
-  • Gestalten • Under Consideration • Ariva • Unisource"
+  Under Consideration • Search Systems • The One Club • Print Can • Ming Pao Daily
+  News • Flash Reproductions • The Stack, Monocle • Design Chat • Y-File, York University
+  • The Society of Typographic Arts (STA) • Span Agency • The Best Part • BlueLine
+  By Domtar • Applied Arts Magazine • Grain Edit • Creative Review • hhhound • Creative
+  Type • Masthead On-Line • Clio Sports • Jsonline • Design Mafia • Ian Claridge •
+  The Magenta Links • idN World • Lichtconlon • Communication Arts • Spectrum Collective
+  • Letter Cult • Change The Thought • Cyana Trendland • Bla Style • Spek*Trum • Tumbler
+  • My Still Life • Welshmans Thoughts • How Magazine • The Canadian Design Resource
+  • What Make Us • The Serif • Visualize Us • Ball Dora, Typo-Grafik • Coroflot •
+  Art Net Worker • Art Tower • Design Collector • Net Vibes • Pinterest • Creative
+  Mornings • Graphis • Alfalfa Studios • The National Magazine Awards • Behance •
+  ffffound • Indulgy • The Art Directors Club of Canada • Luc Devroye • New York Type
+  Directors Club • Skill Share • Flash Reproductions • Comic Book Daily • 1006w10
+  • Quarto Knows • Punk Films • Tipografia • Polyvore • Begin Being • Canadian Mags
+  • IDEA Magazine • Gestalten • Under Consideration • Ariva • Unisource"
 clients: The Dalí Universe • Yorkville Village • Coca-Cola • Pepsi • Ford • Proctor
   & Gamble • Simon & Schuster • Harlequin • Bath & Body Works • Channel Zero • McDonalds
   • MLB • Canwest Global • NBA • Jugnoo • Dairy Farmers Of Canada • Pizza Nova • Bata
