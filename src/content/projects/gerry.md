@@ -1,8 +1,8 @@
 ---
-title: Gerry Shatford Trio
+title: "“Gerry Shatford” Trio"
 template: project
 key: gerry
-date: 2018-11-18T01:42:51+00:00
+date: 2018-11-18T01:42:51.000+00:00
 description: The compositions of the album were adapted and interpreted musically
   from the renowned Canadian poet Al Purdy. Its various rhythms and textures were
   echoed graphically throughout the design of both the packaging and accompanying
