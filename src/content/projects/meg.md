@@ -1,5 +1,5 @@
 ---
-title: Meg Custom Typeface
+title: "“Meg” Custom Typeface"
 template: project
 key: meg
 date: 2018-11-18T01:42:51.000+00:00
