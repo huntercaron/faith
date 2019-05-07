@@ -1,10 +1,10 @@
 ---
 title: |-
-  Zombie Boy
+  “Zombie Boy”
   Brand Identity
 template: project
 key: zombie
-date: 2018-12-17T01:16:18+00:00
+date: 2018-12-17T01:16:18.000+00:00
 description: Rick Genest (Zombie Boy) got his first tattoo at age 16. A few years
   later, he started performing in the sideshow business as a bizarre entertainer internationally.
   His claim to fame was his 2011 performance alongside Lady Gaga in her “Born This
