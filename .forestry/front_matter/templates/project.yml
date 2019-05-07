@@ -1,7 +1,6 @@
 ---
 label: Project
 hide_body: true
-is_partial: false
 fields:
 - type: textarea
   name: title
@@ -36,6 +35,6 @@ fields:
   description: For main page
 pages:
 - src/content/projects/zombie-boy-brand-identity.md
-- src/content/projects/covergirl-brand-identity.md
-- src/content/projects/anna-karenina-image-making.md
 - src/content/projects/the-juggernaut-brand-identity.md
+- src/content/projects/anna-karenina-image-making.md
+- src/content/projects/covergirl-brand-identity.md
