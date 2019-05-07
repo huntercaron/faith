@@ -1,8 +1,8 @@
 ---
-title: Salvador Dalí Art & Fashion Exhibition
+title: "“Salvador Dalí” Art & Fashion Exhibition"
 template: project
 key: dali
-date: 2018-11-18T01:42:51+00:00
+date: 2018-11-18T01:42:51.000+00:00
 description: This world-class art and fashion exhibition featured the work of surrealist
   master Salvador Dalí and his influence on fashion. It was the first viewing of its
   kind in North America in partnership with The Dalí Universe, Hazelton Fine Art Galleries
