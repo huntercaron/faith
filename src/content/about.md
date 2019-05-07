@@ -17,21 +17,21 @@ contact: info@faith.ca
 instagram: https://www.instagram.com/paulsych/
 press: "Books: Asian Pacific Design No. 14, Sandu Publishing • Letterforms, Typeface
   Design from Past to Future, Rockport • Graphis Journal, Graphis Inc. • The Typography
-  Idea Book, Inspiration from 50 Masters, Laurence King • Asian Pacific Design No.
-  12, Sandu Publishing • Tokyo Type Directors Club • Graphis Typography 3, Graphis
-  Inc. • Directions, The Advertising & Design Club of Canada • TDC 34, The New York
-  Type Directors Club • Asian Pacific Design, Sandu Publishing • Graphis Logo Design
-  8, Graphis Inc. • Los Logos 6, Gestalten • Graphis Photography Annual, Graphis Inc.
-  • Symbol, Laurence King • Page Unlimited: Innovations in Layout Design, Sandu Publishing
-  • New Modernist Type, Thames & Hudson • Fuse 1-20, Taschen • Who’s Who?, Graphic
-  Designers of the World Today • Graphis Design Annual 2011, Graphis Inc • Playful
-  Type 2, Gestalten • TDC 31, The New York Type Directors Club • Los Logos Compass,
-  Gestalten • 1000 Symbols, Rockport • Logolounge Master Library, Rockport • Typography
-  Essentials: 100 Design Principles for Working with Type, Rockport • New Ornamental
-  Type, Thames & Hudson • Logo-Art, Rotovision • Playful Type, Gestalten • Los Logos
-  4, Gestalten • Logolounge 4, Rockport • Made with FontFont, BIS Publishers • Tres
-  Logos, Gestalten • 1000 Design Elements, Rockport • Spatium • Identity Design That
-  Works, Rockport • Designing with Found Objects • Provocative Graphics, Rockport
+  Idea Book, Inspiration from 50 Masters, Laurence King • Los Logos 7, Gestalten •
+  Asian Pacific Design No. 12, Sandu Publishing • Tokyo Type Directors Club • Graphis
+  Typography 3, Graphis Inc. • Directions, The Advertising & Design Club of Canada
+  • TDC 34, The New York Type Directors Club • Asian Pacific Design No. 9, Sandu Publishing
+  • Graphis Logo Design 8, Graphis Inc. • Los Logos 6, Gestalten • Graphis Photography
+  Annual, Graphis Inc. • Symbol, Laurence King • Page Unlimited: Innovations in Layout
+  Design, Sandu Publishing • New Modernist Type, Thames & Hudson • Fuse 1-20, Taschen
+  • Who’s Who?, Graphic Designers of the World Today • Graphis Design Annual 2011,
+  Graphis Inc • Playful Type 2, Gestalten • TDC 31, The New York Type Directors Club
+  • Los Logos Compass, Gestalten • 1000 Symbols, Rockport • Logolounge Master Library,
+  Rockport • Typography Essentials: 100 Design Principles for Working with Type, Rockport
+  • New Ornamental Type, Thames & Hudson • Logo-Art, Rotovision • Playful Type, Gestalten
+  • Los Logos 4, Gestalten • Logolounge 4, Rockport • Made with FontFont, BIS Publishers
+  • Tres Logos, Gestalten • 1000 Design Elements, Rockport • Spatium • Identity Design
+  That Works, Rockport • Designing with Found Objects • Provocative Graphics, Rockport
   • Extreme Fonts 2, Madison Square Press • Radical Design, Rockport • Moving Type,
   Thames & Hudson • Sonic Graphics: Seeing Sound, Thames & Hudson • Typology, Chronicle
   Books • Applied Typography 7, Graphic Sha Pub Co • Working With Computer Type: Experimental
