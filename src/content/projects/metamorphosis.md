@@ -1,8 +1,8 @@
 ---
-title: Fshnunlimited Metamorphosis Edition
+title: Fshnunlimited “Metamorphosis” Edition
 template: project
 key: metamorphosis
-date: 2018-11-18T01:42:51+00:00
+date: 2018-11-18T01:42:51.000+00:00
 description: Art/Creative direction and design for Fshununlimited’s “Metamorphosis”
   edition. In this issue, fashion, art and sex merge in the spirit of a renewed generation
   – channelling resurgence, diversity and authenticity.
