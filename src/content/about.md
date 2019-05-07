@@ -72,25 +72,25 @@ awards: |-
   The Society of Typographic Arts (SOTA), Excellence (x1), 2018
   Graphis Typography 4, Gold Award, (x3), Silver Award, (x3) 2017
   The Society of Typographic Arts (SOTA), Best In Show, 2016
-  The Society of Typographic Arts (SOTA), Excellence (x2), 2016
-  The Advertising & Design Club of Canada, Merit Award (x4), 2016
+  The Society of Typographic Arts (SOTA), Excellence, (x2), 2016
+  The Advertising & Design Club of Canada, Merit Award, (x4), 2016
   The Advertising & Design Club of Canada, Silver Award, Merit Award, (x4), 2015
   Applied Arts Magazine, Merit Award, 2015
   UVA Unisource Awards, Judges Choice, 2015
   Clio Awards, Silver Award, 2015
   Tokyo Type Directors Club, Typographic Excellence, 2015
   New York Type Directors Club, Typographic Excellence, 2015
-  UVA Unisource Awards, Judges Choice 2014
-  Graphis 2015 Awards, Platinum Award 2014
+  UVA Unisource Awards, Judges Choice, 2014
+  Graphis 2015 Awards, Platinum Award, 2014
   National Magazine Awards, Gold Award, 2014
-  The Advertising & Design Club of Canada, Gold Award, Merit Award (x3), 2014
+  The Advertising & Design Club of Canada, Gold Award, Merit Award, (x3), 2014
   Graphis 100 Best Awards, Gold Award, 2012
-  The Advertising & Design Club of Canada, Silver Award, Merit Award (x4), 2012
-  The Advertising & Design Club of Canada, Gold Award, Silver Award, Merit Award (x3), 2011
-  Graphis 2011 Awards, Platinum Award, Gold Award (x5), 2011
-  Applied Arts Magazine, Merit Award (x3), 2011
+  The Advertising & Design Club of Canada, Silver Award, Merit Award, (x4), 2012
+  The Advertising & Design Club of Canada, Gold Award, Silver Award, Merit Award, (x3), 2011
+  Graphis 2011 Awards, Platinum Award, Gold Award, (x5), 2011
+  Applied Arts Magazine, Merit Award, (x3), 2011
   Cannes Lions, Short List, 2011
-  The One Show, Merit Award (x3), 2011
+  The One Show, Merit Award, (x3), 2011
   Graphis 2010 Awards, Platinum Award, 2011
 
 ---
