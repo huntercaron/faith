@@ -1,8 +1,8 @@
 ---
-title: The Juggernaut Brand Identity
+title: "“The Juggernaut” Brand Identity"
 template: project
 key: juggernaut
-date: 2018-12-17T01:14:52+00:00
+date: 2018-12-17T01:14:52.000+00:00
 description: The Juggernaut is an independent visual effects company that creates
   innovative sequences for advertising, broadcast and feature films. The custom typeface
   alters its structure and configuration throughout multiple applications.
