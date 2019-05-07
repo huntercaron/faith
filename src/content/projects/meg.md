@@ -3,9 +3,9 @@ title: Meg Custom Typeface
 template: project
 key: meg
 date: 2018-11-18T01:42:51.000+00:00
-description: Meg is a custom typeface designed and developed for both print and motion
-  applications. The simplistic construction of each letterform challenge both language
-  and exploration.
+description: "“Meg” is a custom typeface designed and developed for both print and
+  motion applications. The simplistic construction of each letterform challenge both
+  language and exploration."
 gallery_images:
 - "/media/005/meg-001.jpg"
 - "/media/005/meg-002.jpg"
