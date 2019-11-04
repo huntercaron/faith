@@ -18,7 +18,7 @@ jobs:
         FTP_SERVER: ftp.faith.ca
         FTP_USERNAME: faith.ca
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        REMOTE_DIR: testftp
+        REMOTE_DIR: public
         LOCAL_DIR: public
         ARGS: --transfer-all
         # --delete arg will delete files on the server if you've deleted them in git
