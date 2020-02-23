@@ -83,43 +83,43 @@ const ProjectTemplate = ({ data }) => {
         description: 'Enter the post description',
         component: 'textarea',
       },
-      {
-        label: 'Images',
-        name: 'frontmatter.gallery_images',
-        component: 'group-list',
-        description: 'Gallery List',
-        itemProps: item => ({
-          key: item.id,
-        }),
-        defaultItem: () => ({
-          name: 'New Image',
-          id: Math.random()
-            .toString(36)
-            .substr(2, 9),
-        }),
-        fields: [
-          {
-            name: 'id',
-            label: 'Thumbnail',
-            component: 'image',
-            parse: filename => `/content/images/${filename}`,
+      // {
+      //   label: 'Images',
+      //   name: 'frontmatter.gallery_images',
+      //   component: 'group-list',
+      //   description: 'Gallery List',
+      //   itemProps: item => ({
+      //     key: item.id,
+      //   }),
+      //   defaultItem: () => ({
+      //     name: 'New Image',
+      //     id: Math.random()
+      //       .toString(36)
+      //       .substr(2, 9),
+      //   }),
+      //   fields: [
+      //     {
+      //       name: 'id',
+      //       label: 'Thumbnail',
+      //       component: 'image',
+      //       parse: filename => `/content/images/${filename}`,
 
-            previewSrc: (formValues, { input }) => {
-              console.log(input)
-              console.log(formValues)
-              const path = input.name.replace('rawFrontmatter', 'frontmatter')
-              const gastbyImageNode = get(formValues, path)
-              if (!gastbyImageNode) return ''
-              //specific to gatsby-image
-              return gastbyImageNode.childImageSharp.fluid.src
-            },
+      //       previewSrc: (formValues, { input }) => {
+      //         console.log(input)
+      //         console.log(formValues)
+      //         const path = input.name.replace('rawFrontmatter', 'frontmatter')
+      //         const gastbyImageNode = get(formValues, path)
+      //         if (!gastbyImageNode) return ''
+      //         //specific to gatsby-image
+      //         return gastbyImageNode.childImageSharp.fluid.src
+      //       },
 
-            uploadDir: () => {
-              return '/static/assets/media'
-            },
-          },
-        ],
-      },
+      //       uploadDir: () => {
+      //         return '/static/assets/media'
+      //       },
+      //     },
+      //   ],
+      // },
       {
         name: 'rawFrontmatter.thumbnail',
         label: 'Thumbnail',
