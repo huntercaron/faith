@@ -5,9 +5,18 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
+      resolve: 'gatsby-plugin-tinacms',
+      options: {
+        plugins: ['gatsby-tinacms-git', 'gatsby-tinacms-remark'],
+      },
+    },
+    {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require(`postcss-preset-env`)({ stage: 0 }), require('autoprefixer')()],
+        postCssPlugins: [
+          require(`postcss-preset-env`)({ stage: 0 }),
+          require('autoprefixer')(),
+        ],
       },
     },
     {
@@ -37,14 +46,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-relative-images`,
             options: {
-              name: "assets"
-            }
+              name: 'assets',
+            },
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
             },
           },
         ],
