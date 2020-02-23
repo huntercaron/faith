@@ -2,39 +2,39 @@
 label: Project
 hide_body: true
 fields:
-- type: textarea
-  name: title
-  label: Title
-  default: ''
-  config:
-    required: true
-- type: text
-  name: template
-  label: Template
-  hidden: true
-  default: project
-- name: date
-  label: Date
-  type: datetime
-  hidden: true
-  default: ''
-- type: textarea
-  default: ''
-  label: Description
-  name: description
-- name: gallery_images
-  label: Gallery images
-  type: image_gallery
-  hidden: false
-  default: ''
-- type: file
-  name: thumbnail
-  label: Thumbnail
-  config:
-    maxSize: '12'
-  description: For main page
+  - type: textarea
+    name: title
+    label: Title
+    default: ''
+    config:
+      required: true
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: project
+  - name: date
+    label: Date
+    type: datetime
+    hidden: true
+    default: ''
+  - type: textarea
+    default: ''
+    label: Description
+    name: description
+  - name: gallery_images
+    label: Gallery images
+    type: image_gallery
+    hidden: false
+    default: ''
+  - type: file
+    name: thumbnail
+    label: Thumbnail
+    config:
+      maxSize: '12'
+    description: The image that shows up on the homepage
 pages:
-- src/content/projects/zombie-boy-brand-identity.md
-- src/content/projects/the-juggernaut-brand-identity.md
-- src/content/projects/covergirl-brand-identity.md
-- src/content/projects/anna-karenina-image-making.md
+  - src/content/projects/zombie-boy-brand-identity.md
+  - src/content/projects/the-juggernaut-brand-identity.md
+  - src/content/projects/covergirl-brand-identity.md
+  - src/content/projects/anna-karenina-image-making.md
