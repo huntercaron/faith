@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 import './layout.css'
-import Transition from "../components/transition"
-import { BigCross, SmallCross } from '../components/crosses';
-import { Overlays } from "../components/overlays";
+import Transition from '../components/transition'
+import { BigCross, SmallCross } from '../components/crosses'
+import { Overlays } from '../components/overlays'
 
-const timeout = 400;
+const timeout = 400
 
 const getCrossStyle = {
   active: {
@@ -24,12 +24,12 @@ const getCrossStyle = {
 
 class Layout extends React.Component {
   state = {
-    leftAlignCross: false
+    leftAlignCross: false,
   }
 
   updateCrossAlignment = () => {
     this.setState({
-      leftAlignCross: this.props.location.pathname.includes("projects")
+      leftAlignCross: this.props.location.pathname.includes('projects'),
     })
   }
 
@@ -37,22 +37,18 @@ class Layout extends React.Component {
     this.updateCrossAlignment()
   }
 
-
   onExited = () => {
-    if (!this.props.location.pathname.includes("projects")) {
+    if (!this.props.location.pathname.includes('projects')) {
       setTimeout(() => {
         this.updateCrossAlignment()
       }, 100)
     }
-      
   }
 
   onEntering = () => {
-    if (this.props.location.pathname.includes("projects"))
+    if (this.props.location.pathname.includes('projects'))
       this.updateCrossAlignment()
   }
-
-
 
   render() {
     const { location, children } = this.props
@@ -73,29 +69,50 @@ class Layout extends React.Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Faith is a multifaceted creative design agency with a focus on fashion, retail, luxury, and lifestyle sectors.' },
+                {
+                  name: 'description',
+                  content:
+                    'Faith is a multifaceted creative design agency with a focus on fashion, retail, luxury, and lifestyle sectors.',
+                },
                 { name: 'keywords', content: 'design, faith' },
-                { name: 'author', content: 'Paul Sych'}
+                { name: 'author', content: 'Paul Sych' },
               ]}
             >
               <html lang="en" />
             </Helmet>
-          
-            
-            <BigCross style={{...getCrossStyle[((location.pathname === "/" || location.pathname === "/offline-plugin-app-shell-fallback/") ? 'active' : 'inactive')]}}/>
-              
-            <div style={{...getCrossStyle[((location.pathname !== "/" && location.pathname !== "/offline-plugin-app-shell-fallback/") ? 'active' : 'inactive')]}}>
-              <SmallCross 
-                align={this.state.leftAlignCross ? "LEFT" : ""}
-              />
+
+            <BigCross
+              style={{
+                ...getCrossStyle[
+                  location.pathname === '/' ||
+                  location.pathname === '/offline-plugin-app-shell-fallback/'
+                    ? 'active'
+                    : 'inactive'
+                ],
+              }}
+            />
+
+            <div
+              style={{
+                ...getCrossStyle[
+                  location.pathname !== '/' &&
+                  location.pathname !== '/offline-plugin-app-shell-fallback/'
+                    ? 'active'
+                    : 'inactive'
+                ],
+              }}
+            >
+              <SmallCross align={this.state.leftAlignCross ? 'LEFT' : ''} />
             </div>
 
             <Overlays />
 
-            <Transition location={location} onExited={this.onExited} onEntering={this.onEntering}>
-              <div style={{ position: "relative" }}>
-                {children}
-              </div>
+            <Transition
+              location={location}
+              onExited={this.onExited}
+              onEntering={this.onEntering}
+            >
+              <div style={{ position: 'relative' }}>{children}</div>
             </Transition>
           </div>
         )}
@@ -104,5 +121,4 @@ class Layout extends React.Component {
   }
 }
 
-
-export default Layout;
+export default Layout

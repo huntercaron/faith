@@ -1,17 +1,114 @@
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.projects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 100%;
+    padding-top: 0px;
+    clear: both;
+}
+
+.top-projects-box {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+    background-color: #f6f6f6;
+}
+
+.grey-bg {
+    top: 0;
+    position: absolute;
+    background-color: white;
+    z-index: 0;
+    width: 100%;
+    height: 14%;
+
+}
+
+.grey-area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.proj-rect {
+    background-color: black;
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+.proj-text-box h4 {
+    position: relative;
+    font-size: 1.3rem;
+    letter-spacing: 0.35px;
+    /* font-weight: 300; */
+    transition: all 500ms ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.underline {
+    letter-spacing: -1.5px;
+    color: transparent;
+    border-bottom: 1px solid white;
+}
+
+.underline.underline-black {
+    border-color: black;
+}
+
+.image-box {
+    position: relative;
+}
+
+.proj-img {
+    object-fit: contain;
+    transition: all 500ms ease;
+}
+
 .project {
-  position: relative;
-  height: 100%;
-  width: 100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.proj-inner {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+
+.proj-inner:hover .proj-text-box h4 {
+    letter-spacing: 0.1px !important;
+    color: #333;
+}
+
+.project-info {
+    width: 100%;
+    height: 100%;
+}
+
+.proj-inner:hover .proj-rect {
+    background-color: white;
+}
+
+.proj-inner:hover .proj-rect .underline {
+    border-color: black;
 }
 
 .project-link {
   display: inline-block;
   height: 100%;
-  width: 100%;
-}
-
-.proj-inner {
-  position: relative;
   width: 100%;
 }
 
@@ -24,7 +121,6 @@
   white-space: pre-wrap;
 }
 
-
 .proj-text-box h4 {
   white-space: pre-wrap;
 }
@@ -33,6 +129,11 @@
   background-color: #f6f6f6;
 }
 
+
+
+/* 
+** Individual Styles
+*/
 
 
 /* proj-covergirl */
@@ -75,7 +176,7 @@
 }
 
 .proj-anna-rect {
-    width: 30%;
+    width: 32%;
     right: 7%;
     height: 30%;
     top: 40%;
@@ -84,8 +185,8 @@
 .proj-anna-rect .proj-text-box {
     position: absolute;
     text-align: right;
-    bottom: 10%;
-    right: 10px;
+    bottom: 12%;
+    right: 15px;
 }
 
 .proj-inner:hover .proj-anna-rect {
