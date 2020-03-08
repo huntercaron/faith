@@ -1,5 +1,5 @@
 ---
-title: Fshnunlimited “Metamorphosis” Edition
+title: Example Project
 template: project
 key: metamorphosis
 date: 2018-11-18T01:42:51.000+00:00
