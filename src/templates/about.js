@@ -2,8 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 
-
-const AboutTemplate = (props) => {
+const AboutTemplate = props => {
   const siteTitle = props.data.site.siteMetadata.title
   const {
     description,
@@ -11,24 +10,27 @@ const AboutTemplate = (props) => {
     press,
     clients,
     awards,
-    instagram
+    instagram,
   } = props.data.markdownRemark.frontmatter
 
   return (
     <div>
-      <Helmet
-        htmlAttributes={{ lang: 'en' }}
-        title={`About | ${siteTitle}`}
-      />
+      <Helmet htmlAttributes={{ lang: 'en' }} title={`About | ${siteTitle}`} />
 
       <div className="info">
         <div className="info-inner">
           <p>{description}</p>
 
           <h4>
-            contact 
-            <p className="no-margin"><a href={`mailto:${contact}`}>{contact}</a></p>
-            <p><a href={instagram} target="_blank" rel="noopener noreferrer" >instagram</a></p>
+            contact
+            <p className="no-margin">
+              <a href={`mailto:${contact}`}>{contact}</a>
+            </p>
+            <p>
+              <a href={instagram} target="_blank" rel="noopener noreferrer">
+                instagram
+              </a>
+            </p>
           </h4>
 
           <h4>Selected Press & Publications</h4>
@@ -41,8 +43,6 @@ const AboutTemplate = (props) => {
           <p>{awards}</p>
         </div>
       </div>
-
-
     </div>
   )
 }
