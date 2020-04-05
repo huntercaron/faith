@@ -35,6 +35,7 @@ fields:
   description: The image that shows up on the homepage
 pages:
 - src/content/projects/anna-karenina-image-making.md
+- src/content/projects/burn-by-veronica-formos-image-making.md
 - src/content/projects/covergirl-brand-identity.md
 - src/content/projects/futurezona-brand-identity.md
 - src/content/projects/mia-vesper-brand-identity.md
