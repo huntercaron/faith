@@ -1,6 +1,6 @@
 ---
 template: project
-title: "“PERFECTION OR REFLECTION” IMAGE MAKING"
+title: "“Perfection vs Reflection” Image making"
 date: 
 description: Collaborative work with fashion photographer Veronica Formos’s Perfection
   Reflection artist installation.
