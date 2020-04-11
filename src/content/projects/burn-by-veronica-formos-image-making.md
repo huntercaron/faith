@@ -1,6 +1,6 @@
 ---
 template: project
-title: "“BURN” BY VERONICA FORMOS” IMAGE MAKING"
+title: “Burn by Veronica Formos" Image making
 date: 
 description: Selected images from fashion photographer Veronica Formos Burn Exhibit.
 gallery_images:
