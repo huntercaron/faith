@@ -1,6 +1,6 @@
 ---
 template: project
-title: "“MIA VESPER” BRAND IDENTITY"
+title: "“Mia Vesper” Brand Identity"
 date: 
 description: 'Upcycling, the practice of turning used fabrics into new high fashion
   garments, is currently captivating the fashion world. In New York, there’s a new
