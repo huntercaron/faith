@@ -1,6 +1,6 @@
 ---
 template: project
-title: "“FUTUREZONA” BRAND IDENTITY"
+title: "“Futurezona” Brand identity"
 date: 
 description: In aligning his manufacturing expertise with his boundless passion for
   futuristic art and cultural exploration, Futurezona became the offspring of artist
