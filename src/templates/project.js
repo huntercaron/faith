@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import styled from 'styled-components'
 import 'intersection-observer'
 
-const Title = styled.h1`
+export const Title = styled.h1`
   text-align: left;
   font-size: 1.35rem;
   letter-spacing: 0.2px;

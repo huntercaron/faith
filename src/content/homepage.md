@@ -16,5 +16,5 @@ projectOrder:
 - src/content/projects/ufo.md
 - src/content/projects/the-juggernaut-brand-identity.md
 - src/content/projects/inception.md
-
+- src/content/projects/futurezona-brand-identity.md
 ---
