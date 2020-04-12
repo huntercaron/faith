@@ -1,8 +1,8 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 
-const AboutTemplate = props => {
+const AboutTemplate = (props) => {
   const siteTitle = props.data.site.siteMetadata.title
   const {
     description,

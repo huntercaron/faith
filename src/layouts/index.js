@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import './layout.css'
 import Transition from '../components/transition'
@@ -64,7 +64,7 @@ class Layout extends React.Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <div>
             <Helmet
               title={data.site.siteMetadata.title}

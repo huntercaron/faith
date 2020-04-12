@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
@@ -92,7 +92,7 @@ const ProjectTemplate = ({ data }) => {
         </Info>
 
         <Gallery>
-          {project.frontmatter.gallery_images.map(image => (
+          {project.frontmatter.gallery_images.map((image) => (
             <Img
               backgroundColor="#fbfbfb"
               key={image.id}
