@@ -4,8 +4,10 @@ title: "“Typeface Design” 2010-Present"
 date: 
 description: A selection of custom typography produced for various clients between
   2010 and present. The showcase includes; cd packaging, visual identity, book cover
-  design, print and editorial.
+  design, posters and editorial.
 gallery_images:
+- "/media/'19-4.jpg"
+- "/media/Future.jpg"
 - "/media/headGames-1.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.03.05 PM.png"
 - "/media/wildThing.jpg"
@@ -14,6 +16,7 @@ gallery_images:
 - "/media/Screen Shot 2020-04-11 at 8.06.38 PM.png"
 - "/media/gazeCover.jpg"
 - "/media/T.M.S. 1.jpg"
+- "/media/desertStorm.jpg"
 - "/media/Screen Shot 2020-04-05 at 2.17.46 PM.png"
 - "/media/hair-1.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.00.47 PM.png"
@@ -36,6 +39,6 @@ gallery_images:
 - "/media/faf03.jpg"
 - "/media/Xcentriques.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.25.15 PM.png"
-thumbnail: "/media/'19-2.jpg"
+thumbnail: "/media/Typography (Main Image).jpg"
 
 ---
