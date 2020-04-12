@@ -3,8 +3,8 @@ template: project
 title: "“Typeface Design” 2010-Present"
 date: 
 description: A selection of custom typography produced for various clients between
-  2010 and present. The showcase includes; cd packaging, visual identity, book cover
-  design, posters and editorial.
+  2010 and present. The showcase includes; packaging, visual identity, book cover
+  design, posters, editorial and typeface families.
 gallery_images:
 - "/media/Back Beauty.jpg"
 - "/media/Sun.jpg"
