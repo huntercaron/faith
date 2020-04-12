@@ -6,7 +6,6 @@ description: A selection of custom typography produced for various clients betwe
   2010 and present. The showcase includes; cd packaging, visual identity, book cover
   design, posters and editorial.
 gallery_images:
-- "/media/'19-4.jpg"
 - "/media/Future.jpg"
 - "/media/headGames-1.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.03.05 PM.png"
@@ -17,17 +16,13 @@ gallery_images:
 - "/media/gazeCover.jpg"
 - "/media/T.M.S. 1.jpg"
 - "/media/desertStorm.jpg"
-- "/media/Screen Shot 2020-04-05 at 2.17.46 PM.png"
 - "/media/hair-1.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.00.47 PM.png"
 - "/media/lushWinterCover.jpg"
-- "/media/Screen Shot 2020-04-11 at 6.03.52 PM.png"
 - "/media/lit4Spread.jpg"
 - "/media/Screen Shot 2020-04-05 at 2.29.54 PM.png"
 - "/media/Screen Shot 2020-04-11 at 5.52.16 PM.png"
 - "/media/gluttonySpread02.jpg"
-- "/media/Screen Shot 2020-04-11 at 6.04.23 PM.png"
-- "/media/Screen Shot 2020-04-11 at 6.30.52 PM.png"
 - "/media/Emoto Bottles.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.26.21 PM.png"
 - "/media/The Good, The Bad and The Ugly (annual cvr.).tif"
