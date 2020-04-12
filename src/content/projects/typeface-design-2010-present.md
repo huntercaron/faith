@@ -15,6 +15,7 @@ gallery_images:
 - "/media/Screen Shot 2020-04-11 at 8.06.38 PM.png"
 - "/media/gazeCover.jpg"
 - "/media/T.M.S. 1.jpg"
+- "/media/uprising-1.jpg"
 - "/media/desertStorm.jpg"
 - "/media/hair-1.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.00.47 PM.png"
