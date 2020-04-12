@@ -2,6 +2,7 @@
 template: project
 title: "“FUTUREZONA” BRAND IDENTITY"
 date: 
+key: futurezona
 description: In aligning his manufacturing expertise with his boundless passion for
   futuristic art and cultural exploration, Futurezona became the offspring of artist
   and designer Ranbir Sidhu. Ranbir creates museum grade sculptures and furniture

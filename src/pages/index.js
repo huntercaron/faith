@@ -18,7 +18,7 @@ const IndexPage = ({
     },
   },
 }) => {
-  projects.map(project => {
+  projects.map((project) => {
     return (project.relativePath =
       'src/' + project.node.fileAbsolutePath.split('src/')[1])
   })
@@ -31,7 +31,7 @@ const IndexPage = ({
   })
 
   const activeProjects = projects.filter(
-    project => projectOrder.indexOf(project.relativePath) > -1
+    (project) => projectOrder.indexOf(project.relativePath) > -1
   )
 
   return (

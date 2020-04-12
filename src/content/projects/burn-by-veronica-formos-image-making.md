@@ -2,6 +2,7 @@
 template: project
 title: "“BURN” BY VERONICA FORMOS” IMAGE MAKING"
 date: 
+key: burn
 description: Selected images from fashion photographer Veronica Formos Burn Exhibit.
 gallery_images:
 - "/media/vf6.jpg"
