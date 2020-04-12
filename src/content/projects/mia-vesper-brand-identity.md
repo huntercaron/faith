@@ -1,6 +1,6 @@
 ---
 template: project
-title: "“MIA VESPER” BRAND IDENTITY"
+title: "“Mia Vesper” Brand Identity"
 date: 
 key: vesper
 description: 'Upcycling, the practice of turning used fabrics into new high fashion
