@@ -6,6 +6,7 @@ description: A selection of custom typography produced for various clients betwe
   2010 and present. The showcase includes; cd packaging, visual identity, book cover
   design, posters and editorial.
 gallery_images:
+- "/media/Ghost.jpg"
 - "/media/Sun.jpg"
 - "/media/Future.jpg"
 - "/media/headGames-1.jpg"
@@ -14,7 +15,7 @@ gallery_images:
 - "/media/LT_5_RECORD.jpg"
 - "/media/gazeCover.jpg"
 - "/media/Chung.jpg"
-- "/media/T.M.S. 1.jpg"
+- "/media/Famiglia.jpg"
 - "/media/uprising-1.jpg"
 - "/media/desertStorm.jpg"
 - "/media/hair-1.jpg"
@@ -26,7 +27,6 @@ gallery_images:
 - "/media/Paul Sych[Forte].tif"
 - "/media/loveHateFull01.jpg"
 - "/media/loveHateFull02.jpg"
-- "/media/faf03.jpg"
 - "/media/Xcentriques.jpg"
 thumbnail: "/media/Typography (Main Image).jpg"
 
