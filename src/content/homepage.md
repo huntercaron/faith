@@ -16,5 +16,8 @@ projectOrder:
 - src/content/projects/ufo.md
 - src/content/projects/the-juggernaut-brand-identity.md
 - src/content/projects/inception.md
-- src/content/projects/futurezona-brand-identity.md
+# - src/content/projects/futurezona-brand-identity.md
+# - src/content/projects/burn-by-veronica-formos-image-making.md
+# - src/content/projects/perfection-or-reflection-image-making.md
+# - src/content/projects/mia-vesper-brand-identity.md
 ---
