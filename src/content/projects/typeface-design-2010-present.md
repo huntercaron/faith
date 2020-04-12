@@ -6,13 +6,14 @@ description: A selection of custom typography produced for various clients betwe
   2010 and present. The showcase includes; cd packaging, visual identity, book cover
   design, posters and editorial.
 gallery_images:
+- "/media/Sun.jpg"
 - "/media/Future.jpg"
 - "/media/headGames-1.jpg"
-- "/media/Screen Shot 2020-04-11 at 6.03.05 PM.png"
 - "/media/wildThing.jpg"
 - "/media/Screen Shot 2018-05-03 at 11.57.36 AM.png"
 - "/media/LT_5_RECORD.jpg"
 - "/media/gazeCover.jpg"
+- "/media/Chung.jpg"
 - "/media/T.M.S. 1.jpg"
 - "/media/uprising-1.jpg"
 - "/media/desertStorm.jpg"
