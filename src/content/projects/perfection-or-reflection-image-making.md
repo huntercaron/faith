@@ -11,6 +11,6 @@ gallery_images:
 - "/media/Veronica Formos 3.jpg"
 - "/media/Veronica Formos 1.jpg"
 - "/media/Veronica Formos 2.jpg"
-thumbnail: "/media/Perfection Relection Main image.jpg"
+thumbnail: "/media/Veronica Formos 3.jpg"
 
 ---
