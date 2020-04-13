@@ -16,7 +16,7 @@ gallery_images:
 - "/media/LT_5_RECORD-1.jpg"
 - "/media/gazeCover.jpg"
 - "/media/billyJean.jpg"
-- "/media/Various logos.jpg"
+- "/media/NEW Various logos.jpg"
 - "/media/neon.jpg"
 - "/media/xcover.jpg"
 - "/media/uprising-1.jpg"
