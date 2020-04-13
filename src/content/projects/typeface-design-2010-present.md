@@ -26,12 +26,13 @@ gallery_images:
 - "/media/lushWinterCover.jpg"
 - "/media/lit4Spread.jpg"
 - "/media/Emoto Bottles.jpg"
-- "/media/Chung-1.jpg"
 - "/media/The Good, The Bad and The Ugly (annual cvr.).tif"
 - "/media/orientExpress.jpg"
 - "/media/nomad.jpg"
+- "/media/Chung-1.jpg"
 - "/media/loveHateFull01.jpg"
 - "/media/loveHateFull02.jpg"
+- "/media/Screen Shot 2020-04-11 at 6.30.52 PM-1.png"
 thumbnail: "/media/Typography (Main Image).jpg"
 
 ---
