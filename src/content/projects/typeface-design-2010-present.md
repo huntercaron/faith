@@ -7,7 +7,8 @@ description: A selection of custom typography produced for various clients betwe
   posters, editorial and typeface families.
 gallery_images:
 - "/media/Back Beauty.jpg"
-- "/media/Sun.jpg"
+- "/media/Here comes.jpg"
+- "/media/Sun full set.jpg"
 - "/media/wildThing.jpg"
 - "/media/headGames-1.jpg"
 - "/media/Ace-4.jpg"
