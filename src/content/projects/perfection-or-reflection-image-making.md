@@ -4,7 +4,7 @@ key: perfection
 title: "“Perfection vs Reflection” Image making"
 date: 
 description: Collaborative work with fashion photographer Veronica Formos’s Perfection
-  Reflection artist installation.
+  vs Reflection artist installation.
 gallery_images:
 - "/media/New v. 1.jpg"
 - "/media/New v. 2.jpg"
