@@ -10,6 +10,7 @@ gallery_images:
 - "/media/Sun.jpg"
 - "/media/wildThing.jpg"
 - "/media/headGames-1.jpg"
+- "/media/Ace-4.jpg"
 - "/media/Ghost.jpg"
 - "/media/Screen Shot 2018-05-03 at 11.57.36 AM.png"
 - "/media/LT_5_RECORD.jpg"
