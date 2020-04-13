@@ -1,5 +1,10 @@
 ---
 projectOrder:
+- src/content/projects/futurezona-brand-identity.md
+- src/content/projects/burn-by-veronica-formos-image-making.md
+- src/content/projects/perfection-or-reflection-image-making.md
+- src/content/projects/mia-vesper-brand-identity.md
+- src/content/projects/typeface-design-2010-present.md
 - src/content/projects/covergirl-brand-identity.md
 - src/content/projects/anna-karenina-image-making.md
 - src/content/projects/zombie-boy-brand-identity.md
@@ -16,8 +21,4 @@ projectOrder:
 - src/content/projects/ufo.md
 - src/content/projects/the-juggernaut-brand-identity.md
 - src/content/projects/inception.md
-# - src/content/projects/futurezona-brand-identity.md
-# - src/content/projects/burn-by-veronica-formos-image-making.md
-# - src/content/projects/perfection-or-reflection-image-making.md
-# - src/content/projects/mia-vesper-brand-identity.md
 ---

@@ -135,6 +135,18 @@
 ** Individual Styles
 */
 
+/* proj-futurezona */
+
+.proj-futurezona-box {
+    width: 40%;
+}
+
+/* proj-futurezona */
+
+.proj-burn-box {
+    width: 60%;
+}
+
 
 /* proj-covergirl */
 
@@ -687,10 +699,6 @@
         left: 37.5%;
 
     }
-
-
-
-
 
     .grid {
         margin-top: 280px;
