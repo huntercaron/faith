@@ -2,6 +2,7 @@
 template: project
 title: "“Typeface Design” 2010-Present"
 date: 
+key: typeface
 description: A selection of custom typography produced for various clients between
   2010 and present. The showcase includes; packaging, visual identity, book covers,
   posters, editorial and typeface families.
