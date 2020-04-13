@@ -11,6 +11,6 @@ gallery_images:
 - "/media/vf3.jpg"
 - "/media/vf2.jpg"
 - "/media/vf5.jpg"
-thumbnail: "/media/vf1_rotated.jpg"
+thumbnail: "/media/vf1_rotated_cropped_example.jpg"
 
 ---
