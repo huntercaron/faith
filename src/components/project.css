@@ -836,6 +836,7 @@
 
 
     .proj-masseria-box {
+        flex-basis:  100%;
         margin-top: 175px;
         width: 100%;
     }
