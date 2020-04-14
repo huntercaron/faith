@@ -4,9 +4,9 @@ import styled from 'styled-components'
 import { Title } from '../templates/project'
 
 const Container = styled.div`
-  width: 100%;
+  width: auto;
   height: 100%;
-  margin: 50vh 0 50px 40px;
+  margin: 50vh 0 20px calc(10px + 2vw);
 `
 
 const TitleLink = styled(Title)`
