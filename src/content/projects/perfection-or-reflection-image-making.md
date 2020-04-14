@@ -6,11 +6,12 @@ date:
 description: Collaborative work with fashion photographer Veronica Formos’s Perfection
   vs Reflection artist installation.
 gallery_images:
+- "/media/New v. 3.jpg"
 - "/media/New v. 1.jpg"
 - "/media/New v. 2.jpg"
 - "/media/Veronica Formos 3.jpg"
 - "/media/Veronica Formos 1.jpg"
 - "/media/Veronica Formos 2.jpg"
-thumbnail: "/media/Veronica Formos 3.jpg"
+thumbnail: "/media/NEW Perfection main image.jpg"
 
 ---
