@@ -10,9 +10,9 @@ description: 'Upcycling, the practice of turning used fabrics into new high fash
   and basketball shorts. '
 gallery_images:
 - "/media/Screen Shot 2020-04-04 at 7.28.04 PM.png"
-- "/media/mia2.jpg"
-- "/media/mia1.jpg"
-- "/media/mia3.jpg"
+- "/media/mia2-1.jpg"
+- "/media/mia1-1.jpg"
+- "/media/mia3-1.jpg"
 thumbnail: "/media/Mia Main image.jpg"
 
 ---
