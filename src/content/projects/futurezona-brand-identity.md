@@ -15,6 +15,6 @@ gallery_images:
 - "/media/29402576_986027701574057_8410849745840373760_n.jpg"
 - "/media/Futurezona 4.jpg"
 - "/media/Futurezona 7.jpg"
-thumbnail: "/media/Futurezona 7-1.jpg"
+thumbnail: "/media/NEW Futurezona main image.jpg"
 
 ---

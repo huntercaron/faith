@@ -37,6 +37,6 @@ gallery_images:
 - "/media/loveHateFull01.jpg"
 - "/media/loveHateFull02.jpg"
 - "/media/Screen Shot 2020-04-11 at 6.30.52 PM-1.png"
-thumbnail: "/media/Typography (Main Image).jpg"
+thumbnail: "/media/NEW Desert Storm Main Image.jpg"
 
 ---
