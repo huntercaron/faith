@@ -13,7 +13,7 @@ description: This world-class art and fashion exhibition featured the work of su
   Dancer.
 gallery_images:
 - "/media/001/optim/dali-001.jpg"
-- "/media/001/optim/dali-002.jpg"
+- "/media/Dali (street panel).jpg"
 - "/media/001/optim/dali-003.jpg"
 - "/media/001/optim/dali-004.jpg"
 - "/media/001/optim/dali-005.jpg"

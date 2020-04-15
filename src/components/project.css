@@ -135,6 +135,120 @@
 ** Individual Styles
 */
 
+/* proj-futurezona */
+
+.proj-futurezona-box {
+    width: 34%;
+    margin-top: 12%;
+    margin-right: 4%;
+}
+
+.proj-futurezona-rect {
+    top: 31%;
+    left: 0;
+    width: 89%;
+    height: 30%;
+}
+
+.proj-futurezona-rect .proj-text-box {
+    position: absolute;
+    right: calc(16px + 1vw);
+    bottom: calc(14px + 1vw);
+    text-align: right;
+    max-width: 150px;
+}
+
+/* proj-burn */
+
+.proj-burn-box {
+    width: 62%;
+    margin-top: 3%;
+}
+
+.proj-burn-rect {
+    left: 8%;
+    top: 0%;
+    width: 40%;
+    height: 76%;
+    padding-top: 25%;
+    padding-right: calc(10px + 1vw);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.proj-burn-rect .proj-text-box {
+    text-align: right;
+    max-width: 220px;
+}
+
+/* proj-perfection */
+
+.proj-perfection-box {
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 13.1%;
+}
+
+.proj-perfection-rect {
+    width: 100%;
+    height: 30%;
+    top: 20%;
+}
+
+.proj-perfection-rect .proj-text-box {
+    text-align: right;
+    max-width: 200px;
+    margin-left: 20%;
+    margin-top: 4.5%;
+}
+
+    
+
+/* proj-vesper */
+
+.proj-vesper-box {
+    width: 50%;
+    margin-top: -5%;
+}
+
+.proj-vesper-rect {
+    left: 20%;
+    height: 54%;
+    top: 0;
+    width: 59%;
+}
+
+.proj-vesper-rect .proj-text-box  {
+    position: absolute;
+    bottom: 7%;
+    max-width: 150px;
+    text-align: left;
+    left: 30%;
+}
+
+
+/* proj-typeface */
+
+.proj-typeface-box {
+    width: 95%;
+    margin: 3% 0 5% 5%;
+    padding-right: 2%;
+}
+
+.proj-typeface-rect {
+    right: 0;
+    height: 30%;
+    top: 23%;
+    width: 70%;
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+.proj-typeface-rect .proj-text-box {
+    text-align: left;
+    
+}
+
 
 /* proj-covergirl */
 
@@ -688,10 +802,6 @@
 
     }
 
-
-
-
-
     .grid {
         margin-top: 280px;
         flex-direction: column;
@@ -828,6 +938,7 @@
 
 
     .proj-masseria-box {
+        flex-basis:  100%;
         margin-top: 175px;
         width: 100%;
     }
@@ -930,7 +1041,35 @@
         width: 140px;
     }
 
+    .proj-futurezona-box, .proj-burn-box, .proj-perfection-box, .proj-vesper-box {
+        width: 100%;
+    }
 
+    .proj-futurezona-box {
+        width: 80%;
+        margin-top: 41%;
+    }
+
+    .proj-burn-box {
+        width: 86%;
+        margin-left: 14%;
+        margin-top: 16%;
+        margin-bottom: 2%;
+    }
+
+    .proj-vesper-box {
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 15%; 
+    }
+
+    .proj-typeface-box {
+        width: 120%;
+        margin: 24% 0 15% -20%;
+    }
+    .proj-typeface-rect {
+       height: 35%;
+    }
 
 }
 
