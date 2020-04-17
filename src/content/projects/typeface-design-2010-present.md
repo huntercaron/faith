@@ -16,6 +16,7 @@ gallery_images:
 - "/media/Ghost-2.jpg"
 - "/media/liberty1.jpg"
 - "/media/LT_5_RECORD-1.jpg"
+- "/media/Louis.jpg"
 - "/media/gazeCover.jpg"
 - "/media/billyJean.jpg"
 - "/media/neon.jpg"
