@@ -10,11 +10,11 @@ description: In aligning his manufacturing expertise with his boundless passion 
   a history of Sikhism, modern-day engineering and futurism to imagine and then create
   functioning art.
 gallery_images:
+- "/media/ranbir-sidhu-2-1.jpg"
+- "/media/ranbir-sidhu-3-1.jpg"
+- "/media/29402576_986027701574057_8410849745840373760_n.jpg"
 - "/media/Futurezona 2.jpg"
 - "/media/Futurezona 8.jpg"
-- "/media/29402576_986027701574057_8410849745840373760_n.jpg"
-- "/media/Futurezona 4.jpg"
-- "/media/Futurezona 7.jpg"
 thumbnail: "/media/NEW Futurezona main image.jpg"
 
 ---
