@@ -11,6 +11,7 @@ description: Covergirl is one of the largest cosmetics brand globally. In 2017, 
 gallery_images:
 - "/media/Covergirl 1.jpg"
 - "/media/Covergirl 2.jpg"
+- "/media/shawmut-1946_1944_002.jpg"
 - "/media/Covergirl 3.jpg"
 thumbnail: "/media/Image for main page.jpg"
 
