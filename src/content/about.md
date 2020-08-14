@@ -15,37 +15,38 @@ description: Faith is a multifaceted creative design agency with a focus on fash
   awards.
 contact: info@faith.ca
 instagram: https://www.instagram.com/paulsych/
-press: "Books: Asian Pacific Design No. 14, Sandu Publishing • Letterforms, Typeface
-  Design from Past to Future, Rockport • Graphis Journal, Graphis Inc. • The Typography
-  Idea Book, Inspiration from 50 Masters, Laurence King • Los Logos 7, Gestalten •
-  Asian Pacific Design No. 12, Sandu Publishing • Tokyo Type Directors Club • Graphis
-  Typography 3, Graphis Inc. • Directions, The Advertising & Design Club of Canada
-  • TDC 34, The New York Type Directors Club • Asian Pacific Design No. 9, Sandu Publishing
-  • Graphis Logo Design 8, Graphis Inc. • Los Logos 6, Gestalten • Graphis Photography
-  Annual, Graphis Inc. • Symbol, Laurence King • Page Unlimited: Innovations in Layout
-  Design, Sandu Publishing • New Modernist Type, Thames & Hudson • Fuse 1-20, Taschen
-  • Who’s Who?, Graphic Designers of the World Today • Graphis Design Annual 2011,
-  Graphis Inc • Playful Type 2, Gestalten • TDC 31, The New York Type Directors Club
-  • Los Logos Compass, Gestalten • 1000 Symbols, Rockport • Logolounge Master Library,
-  Rockport • Typography Essentials: 100 Design Principles for Working with Type, Rockport
-  • New Ornamental Type, Thames & Hudson • Logo-Art, Rotovision • Playful Type, Gestalten
-  • Los Logos 4, Gestalten • Logolounge 4, Rockport • Made with FontFont, BIS Publishers
-  • Tres Logos, Gestalten • 1000 Design Elements, Rockport • Spatium • Identity Design
-  That Works, Rockport • Designing with Found Objects • Provocative Graphics, Rockport
-  • Extreme Fonts 2, Madison Square Press • Radical Design, Rockport • Moving Type,
-  Thames & Hudson • Sonic Graphics: Seeing Sound, Thames & Hudson • Typology, Chronicle
-  Books • Applied Typography 7, Graphic Sha Pub Co • Working With Computer Type: Experimental
-  Typography, Rotovision • New International Typography • Emotional Digital • Graphic
-  Design: Innovations & Inspirations 2, North Light Books • Type In The Digital Age
-  • Graphis Digital Fonts, Graphis Inc • Symbols & Trademarks of Canada, Picador •
-  Street Smart Design, North Light Books • Innovations & Inspirations, North Light
-  Books • Design 2000\n\n\nMagazines & Periodicals: Typo, (DE) • Design Bureau Magazine
-  (US) • Applied Arts Magazine (CA) • Azure Magazine (CA) • Page Magazine (DE) • The
-  National Post (CA) • How Magazine (US) • West Magazine (CA) • Masthead Magazine
-  (CA) • Your Office Magazine (CA) • Step By Step Magazine (US) • Electronic Magazine
-  (US) • The Globe & Mail (CA) • Communication Arts Magazine (US) • Letter Arts Magazine
-  (US) • iDN Magazine (JP) • IDEA Magazine (JP) • Eye Magazine (UK) • Confetti Magazine
-  (US) • Fontasia Magazine (US) • EC&I Magazine (US) • Studio Magazine (CA) \n\n\nOnline:
+press: "Books: Graphis Design Annual 2020, Graphis Inc. • Asian Pacific Design No.
+  14, Sandu Publishing • Letterforms, Typeface Design from Past to Future, Rockport
+  • Graphis Journal, Graphis Inc. • The Typography Idea Book, Inspiration from 50
+  Masters, Laurence King • Los Logos 7, Gestalten • Asian Pacific Design No. 12, Sandu
+  Publishing • Tokyo Type Directors Club • Graphis Typography 3, Graphis Inc. • Directions,
+  The Advertising & Design Club of Canada • TDC 34, The New York Type Directors Club
+  • Asian Pacific Design No. 9, Sandu Publishing • Graphis Logo Design 8, Graphis
+  Inc. • Los Logos 6, Gestalten • Graphis Photography Annual, Graphis Inc. • Symbol,
+  Laurence King • Page Unlimited: Innovations in Layout Design, Sandu Publishing •
+  New Modernist Type, Thames & Hudson • Fuse 1-20, Taschen • Who’s Who?, Graphic Designers
+  of the World Today • Graphis Design Annual 2011, Graphis Inc • Playful Type 2, Gestalten
+  • TDC 31, The New York Type Directors Club • Los Logos Compass, Gestalten • 1000
+  Symbols, Rockport • Logolounge Master Library, Rockport • Typography Essentials:
+  100 Design Principles for Working with Type, Rockport • New Ornamental Type, Thames
+  & Hudson • Logo-Art, Rotovision • Playful Type, Gestalten • Los Logos 4, Gestalten
+  • Logolounge 4, Rockport • Made with FontFont, BIS Publishers • Tres Logos, Gestalten
+  • 1000 Design Elements, Rockport • Spatium • Identity Design That Works, Rockport
+  • Designing with Found Objects • Provocative Graphics, Rockport • Extreme Fonts
+  2, Madison Square Press • Radical Design, Rockport • Moving Type, Thames & Hudson
+  • Sonic Graphics: Seeing Sound, Thames & Hudson • Typology, Chronicle Books • Applied
+  Typography 7, Graphic Sha Pub Co • Working With Computer Type: Experimental Typography,
+  Rotovision • New International Typography • Emotional Digital • Graphic Design:
+  Innovations & Inspirations 2, North Light Books • Type In The Digital Age • Graphis
+  Digital Fonts, Graphis Inc • Symbols & Trademarks of Canada, Picador • Street Smart
+  Design, North Light Books • Innovations & Inspirations, North Light Books • Design
+  2000\n\n\nMagazines & Periodicals: Typo, (DE) • Design Bureau Magazine (US) • Applied
+  Arts Magazine (CA) • Azure Magazine (CA) • Page Magazine (DE) • The National Post
+  (CA) • How Magazine (US) • West Magazine (CA) • Masthead Magazine (CA) • Your Office
+  Magazine (CA) • Step By Step Magazine (US) • Electronic Magazine (US) • The Globe
+  & Mail (CA) • Communication Arts Magazine (US) • Letter Arts Magazine (US) • iDN
+  Magazine (JP) • IDEA Magazine (JP) • Eye Magazine (UK) • Confetti Magazine (US)
+  • Fontasia Magazine (US) • EC&I Magazine (US) • Studio Magazine (CA) \n\n\nOnline:
   Under Consideration • Search Systems • The One Club • Print Can • Ming Pao Daily
   News • Flash Reproductions • The Stack, Monocle • Design Chat • Y-File, York University
   • The Society of Typographic Arts (STA) • Span Agency • The Best Part • BlueLine
@@ -70,7 +71,8 @@ clients: The Dalí Universe • Yorkville Village • Coca-Cola • Pepsi • Fo
   • The Fight Network • Harvard University Press • The Sports Network • Terra Footwear
   • Swatch • Kraft Foods • Harvard Business Review • Fshnunlimited Magazine
 awards: |-
-  The Society of Typographic Arts (SOTA), Excellence (x1), 2018
+  Graphis Design Annual, Gold Award, Silver Award, 2020
+  The Society of Typographic Arts (SOTA), Excellence, 2018
   Graphis Typography 4, Gold Award, (x3), Silver Award, (x3) 2017
   The Society of Typographic Arts (SOTA), Best In Show, 2016
   The Society of Typographic Arts (SOTA), Excellence, (x2), 2016
@@ -82,16 +84,16 @@ awards: |-
   Tokyo Type Directors Club, Typographic Excellence, 2015
   New York Type Directors Club, Typographic Excellence, 2015
   UVA Unisource Awards, Judges Choice, 2014
-  Graphis 2015 Awards, Platinum Award, 2014
+  Graphis Design Annual, Platinum Award, 2014
   National Magazine Awards, Gold Award, 2014
   The Advertising & Design Club of Canada, Gold Award, Merit Award, (x3), 2014
   Graphis 100 Best Awards, Gold Award, 2012
   The Advertising & Design Club of Canada, Silver Award, Merit Award, (x4), 2012
   The Advertising & Design Club of Canada, Gold Award, Silver Award, Merit Award, (x3), 2011
-  Graphis 2011 Awards, Platinum Award, Gold Award, (x5), 2011
+  Graphis Design Annual, Platinum Award, Gold Award, (x5), 2011
   Applied Arts Magazine, Merit Award, (x3), 2011
   Cannes Lions, Short List, 2011
   The One Show, Merit Award, (x3), 2011
-  Graphis 2010 Awards, Platinum Award, 2011
+  Graphis Design Annual, Platinum Award, 2011
 
 ---
