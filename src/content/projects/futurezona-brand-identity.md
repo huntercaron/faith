@@ -6,7 +6,7 @@ key: futurezona
 description: 'In aligning his manufacturing expertise with his boundless passion for
   futuristic art and cultural exploration, Futurezona became the offspring of artist
   and designer Ranbir Sidhu. Ranbir creates museum grade sculptures and furniture
-  for clients such as Drake and Jay-Z that mesh modern-day engineering and futurism.
+  for such clients as Drake and Jay-Z that mesh modern-day engineering and futurism.
   The designs that Sidhu creates tend towards a functionality that we’ve always been
   immersed in — on our planet and in the stars. On the galactic influences in his
   work, he cites a table layered with 24 karat gold flake that resembles the distant
