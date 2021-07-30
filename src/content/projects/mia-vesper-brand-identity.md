@@ -10,6 +10,7 @@ description: Upcycling, the practice of turning used fabrics into new high fashi
   and basketball shorts. In 2020, Mia’s custom gown and headpiece were featured in
   Beyoncé’s visual album “Black Is King”.
 gallery_images:
+- "/media/img_3361-768x1024.jpeg"
 - "/media/Screen Shot 2020-04-04 at 7.28.04 PM.png"
 - "/media/mia2-1.jpg"
 - "/media/mia1-1.jpg"
