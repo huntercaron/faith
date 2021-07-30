@@ -2,8 +2,8 @@
 title: About
 template: about
 date: '2018-11-18T08:30:39.000+00:00'
-description: Faith is a multifaceted creative design agency with a focus on fashion,
-  retail and lifestyle sectors. With a wealth of history spanning over three decades
+description: Faith is a multifaceted creative design agency with a focus within the
+  fashion, art and music spectrum. With a wealth of history spanning over three decades
   of graphic expression, Faith was initially founded as a chrysalis of design experimentation
   and discovery through the eyes of artist and typographer, Paul Sych. Faith has cultivated
   the visual vocabulary of multiple companies—producing prolific works in both digital
