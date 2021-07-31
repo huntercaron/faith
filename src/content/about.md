@@ -8,11 +8,11 @@ description: Faith is a multifaceted design agency that creates bespoke typograp
   initially founded as a chrysalis of design experimentation and discovery through
   the eyes of artist and typographer, Paul Sych. Faith has cultivated the visual vocabulary
   of multiple companies—producing prolific works in both digital and print ranging
-  from branding to motion design. To do this, we conceptualize and collaborate both
-  internally and externally—purifying and diversifying the creative process alongside
-  photographers, writers, producers, and the influence of a collective skillset. Our
-  work has appeared in numerous books and publications worldwide and has been celebrated
-  with many international design awards.
+  from branding to motion. To do this, we conceptualize and collaborate both internally
+  and externally—purifying and diversifying the creative process alongside photographers,
+  writers, producers, and the influence of a collective skillset. Our work has appeared
+  in numerous books and publications worldwide and has been celebrated with many international
+  design awards.
 contact: info@faith.ca
 instagram: https://www.instagram.com/paulsych/
 press: "Books: Graphis Design Annual 2020, Graphis Inc. • Asian Pacific Design No.
